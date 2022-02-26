@@ -1,5 +1,5 @@
 <template>
-    <div class="Presentation" :style="bg">
+    <div :id="id"  class="Presentation" :style="bg">
         <div class="survole">
             <div class="gauche" :style="bg">
                 <br><br>
@@ -23,7 +23,8 @@ export default {
     artiste: String,
     presentation_text: String,
     link_yt: String,
-    color: String
+    color: String,
+    id: String
   },
   computed: {
     bg () {
@@ -50,6 +51,7 @@ export default {
     height: 100vh;
     opacity: .99;
     z-index: 9;
+    border-right: 3px solid white;
 }
 .survole{
     height: 100vh;

@@ -1,8 +1,8 @@
 <template>
     <div class="Artistes">
-        <Artiste artiste="Spider Zed" image="spider_zed.jpg"/>
-        <Artiste artiste="A2H" image="A2H.jpg"/>
-        <Artiste artiste="J Y E U H A I R" image="Jyeuhair.jpg"/>
+        <Artiste id="Spider" artiste="Spider Zed" image="spider_zed.jpg"/>
+        <Artiste id="A2H" artiste="A2H" image="A2H.jpg"/>
+        <Artiste id="Jyeu" artiste="J Y E U H A I R" image="Jyeuhair.jpg"/>
         <!-- <Artiste artiste="Electro" image="spider_zed.jpg"/>
         <Artiste artiste="Tremp" image="spider_zed.jpg"/> -->
     </div>

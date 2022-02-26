@@ -13,6 +13,11 @@ export default {
   components: {
     Banniere,
     Artistes
+  },
+  mounted () {
+    document.getElementById('Spider').addEventListener('click', () => { document.location.href = 'http://localhost:8080/Programmation' })
+    document.getElementById('A2H').addEventListener('click', () => { document.location.href = 'http://localhost:8080/Programmation' })
+    document.getElementById('Jyeu').addEventListener('click', () => { document.location.href = 'http://localhost:8080/Programmation' })
   }
 }
 </script>

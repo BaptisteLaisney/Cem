@@ -1,5 +1,5 @@
 <template>
-    <div class="Artiste">
+    <div :id="id" class="Artiste">
         <img class="image-artiste" v-bind:src="require('@/assets/images/artistes/' + image)"/>
         <h2 class="artiste-nom">{{artiste}}</h2>
     </div>
@@ -48,7 +48,8 @@ export default {
   name: 'Artiste',
   props: {
     artiste: String,
-    image: String
+    image: String,
+    id: String
   }
 }
 
