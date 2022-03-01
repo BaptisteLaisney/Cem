@@ -21,32 +21,32 @@ export default {
         border : solid black;
 
     } */
-    .slide{
-        float: left;
-        width: 100vh;
-    }
-    .slides{
+.slide{
+    float: left;
+    width: 100vh;
+}
+.slides{
 
-        width: 10000px;
-        animation : glisse 20s infinite;
-    }
-    .banniere{
-       width: 100%;
-       overflow: hidden;
-       margin : auto;
-       height :70vh;
-    }
-    @keyframes glisse{
+    width: 10000px;
+    animation : glisse 20s infinite;
+}
+.banniere{
+    width: 100%;
+    overflow: hidden;
+    margin : auto;
+    height :70vh;
+}
+@keyframes glisse{
 
-        0%{
-            transform: translateX(0);
-        }
-
-        50%{
-            transform: translateX(-1000px);
-        }
-        0%{
-            transform: translateX(0);
-        }
+    0%{
+        transform: translateX(0);
     }
+
+    50%{
+        transform: translateX(-1000px);
+    }
+    0%{
+        transform: translateX(0);
+    }
+}
 </style>

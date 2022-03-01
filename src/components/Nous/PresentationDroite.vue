@@ -1,15 +1,14 @@
 <template>
-    <div class="PresentationGauche">
-        <img class = "logo-partenaire" :src="require('@/assets/images/Partenaires/' + image)" alt="Image Orga">
+    <div class="PresentationDroite">
+        <TextPresentation :titre = "titre" />
         <div class="trait"></div>
-        <TextPresentation :titre="titre"/>
-
+        <img class = "logo-partenaire" :src="require('@/assets/images/Partenaires/' + image)" alt="Image Orga">
     </div>
 </template>
 <script>
 import TextPresentation from '@/components/Nous/TextPresentation'
 export default {
-  name: 'PresentationGauche',
+  name: 'PresentationDroite',
   props: {
     image: String,
     titre: String
@@ -20,7 +19,7 @@ export default {
 }
 </script>
 <style scoped>
-.PresentationGauche{
+.PresentationDroite{
     position: relative;
     width: 90%;
     margin: auto;
