@@ -71,9 +71,8 @@ export default {
     z-index: 1;
     bottom: 5%;
     left:5%;
-    position: absolute ;
-    width:90%;
-    height: 50vh;
+    width:80%;
+    height: 40vh;
 
 }
 .nom-artiste{
@@ -83,6 +82,8 @@ export default {
     margin:30px;
     font-size: 110%;
     padding: 20px;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .survole:hover + .image-artiste{
