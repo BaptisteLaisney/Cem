@@ -7,7 +7,7 @@
         <div class="espace"></div>
         <PresentationGauche image="ESAM.png" titre="Ecole de l'ESAM"/>
         <div class="espace"></div>
-        <PresentationDroite image="Actif.png" titre="The Muses"/>
+        <PresentationDroite image="TheMuses.png" titre="The Muses"/>
     </div>
 
 </template>

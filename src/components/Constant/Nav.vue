@@ -21,7 +21,7 @@
                 <div class="dropdown-content">
                     <router-link class = "item-menu item-drop-down" to="/Partenaires">Nos partenaires</router-link>
                     <router-link class = "item-menu item-drop-down" to="/Projet">Le projet</router-link>
-                    <router-link class = "item-menu item-drop-down" to="/Nous">Qui sommes nous ?</router-link>
+                    <router-link class = "item-menu item-drop-down" to="/Nous">Qui sommes-nous ?</router-link>
                     <router-link class = "item-menu item-drop-down" to="/Infos">Infos pratiques</router-link>
                 </div>
             </div>

@@ -9,13 +9,6 @@
             bdhfskjil  hifhidh uifhiuh ihsidh hiduf hihsd hhui hi hfdsh ihdiu fhuidshui hdsuih fuihui dsfhuif hiush hi hi hi huih hsduiuh ezuis
             bdhfskjil  hifhidh uifhiuh ihsidh hiduf hihsd hhui hi hfdsh ihdiu fhuidshui hdsuih <mark>fuihui dsfhuif hiush </mark> hi hi hi huih hsduiuh ezuis
         </div>
-        <div class="caroussel">
-            <div class="slides">
-                <div class = "slide"><img class="image" src="../../assets/images/visuel1.png" alt=""></div>
-                <div class = "slide"><img class="image" src="../../assets/images/visuel2.png" alt=""></div>
-                <div class = "slide"><img class="image" src="../../assets/images/visuel3.png" alt=""></div>
-            </div>
-        </div>
 
     </div>
 </template>
@@ -67,15 +60,5 @@ mark{
 .TextPresentation{
     width: 50%;
     text-align: left;
-}
-@keyframes glisse{
-
-    0%{
-        transform: translateX(0);
-    }
-
-    100%{
-        transform: translateX(-1000px);
-    }
 }
 </style>
