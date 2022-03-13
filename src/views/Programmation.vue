@@ -18,11 +18,6 @@ export default {
     Artistes,
     Presentationd,
     Presentationg
-  },
-  mounted () {
-    document.getElementById('Spider').addEventListener('click', () => { document.getElementById('Spider_pres').scrollIntoView({ block: 'end', behavior: 'smooth' }) })
-    document.getElementById('A2H').addEventListener('click', () => { document.getElementById('A2H_pres').scrollIntoView({ block: 'end', behavior: 'smooth' }) })
-    document.getElementById('Jyeu').addEventListener('click', () => { document.getElementById('Jyeu_pres').scrollIntoView({ block: 'end', behavior: 'smooth' }) })
   }
 }
 </script>
