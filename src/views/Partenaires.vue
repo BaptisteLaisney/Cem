@@ -2,8 +2,8 @@
   <div class="Partenaires">
     <h1>Nos partenaires</h1>
     <Partenaire class="Partenaire" nom="INSTUTIONNELS"/>
-    <Partenaire class="Partenaire" nom="PRIVES"/>
-    <Partenaire class="Partenaire" nom="MEDIA"/>
+    <Partenaire class="Partenaire" nom="PRIVÉS"/>
+    <Partenaire class="Partenaire" nom="MÉDIA"/>
     <Partenaire class="Partenaire" nom="TECHNIQUE"/>
     <Partenaire class="Partenaire" nom="FRIENDS"/>
   </div>

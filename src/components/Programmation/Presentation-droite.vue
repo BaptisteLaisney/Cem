@@ -59,9 +59,10 @@ export default {
     width: 100%;
     position: absolute;
     z-index: 10;
+    display: flex;
 }
 .gauche{
-    position: relative;
+    position: absolute;
     z-index:2;
     width: 50%;
     height: 100vh;
@@ -92,14 +93,5 @@ export default {
     left:50%;
     transition: 2s;
 }
-    @keyframes glisse{
 
-        0%{
-            transform: translateX(0);
-        }
-
-        100%{
-            transform: translateX(1000px);
-        }
-    }
 </style>

@@ -42,6 +42,9 @@ a,.item-menu{
     text-decoration: none;
     color: #FF7F50 ;
 }
+.button-nav{
+    font-size: 27px;
+}
 .menu{
     margin:solid black;
     display: flex;
@@ -57,7 +60,6 @@ a,.item-menu{
 .item-menu{
     cursor: pointer;
     padding:10px;
-    font-size: 30px;
     text-decoration: none;
     margin-left: 5px;
     margin-right: 5px;
@@ -107,6 +109,7 @@ a,.item-menu{
 }
 .item-drop-down{
     margin:0px;
+    font-size: 20px;
 }
 .button-drop{
     margin-bottom: 0px;
