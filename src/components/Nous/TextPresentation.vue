@@ -44,6 +44,11 @@ export default {
     width: auto;
     overflow: hidden;
     margin : auto;
+    opacity: 1%;
+}
+.Text:hover + .caroussel{
+    opacity: 100% ;
+    transition: 1s;
 }
 .slide{
     float: left;

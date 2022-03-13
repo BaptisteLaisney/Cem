@@ -1,9 +1,7 @@
 <template>
-  <div id="nav">
-    <Navigation/>
-  </div>
+  <Navigation/>
   <router-view/>
-  <Footer/>
+  <Footer id="footer"/>
 </template>
 
 <script>
@@ -28,6 +26,7 @@ export default {
 
 body{
 
-  margin:0px
+  margin:0px;
+  min-height: 100vh;
 }
 </style>

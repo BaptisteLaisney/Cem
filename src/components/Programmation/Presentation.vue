@@ -38,7 +38,8 @@ export default {
 </script>
 <style scoped>
 .Presentation{
-    background: var(--color);
+    /* background: var(--color); */
+    background: white;
     position: relative;
     height: 100vh;
     overflow: hidden;
@@ -64,7 +65,8 @@ export default {
     z-index:2;
     width: 50%;
     height: 100vh;
-    background: var(--color);
+    /* background: var(--color); */
+    background: white;
     border-right:2px white solid;
 }
 .video{

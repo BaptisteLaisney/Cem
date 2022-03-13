@@ -1,5 +1,5 @@
 <template>
-    <div class="Partenaire">
+    <div class="Partenaire" v-on:click="descend">
         <div class="Categorie">{{nom}}</div>
         <div class="logos">
           <img class="logo" src="@/assets/images/artistes/A2H.jpg" alt="">
@@ -16,12 +16,20 @@ export default {
   props: {
     nom: String
   },
-  mounted () {
-    const elements = document.querySelectorAll('.Partenaire')
-    elements.forEach(el => el.addEventListener('click', event => {
-      event.currentTarget.style.transition = ' all 0.5s ease'
-      event.currentTarget.style.height = '26vh'
-    }))
+  // mounted () {
+  //   // const elements = document.querySelectorAll('.Partenaire')
+  //   // elements.forEach(el => el.addEventListener('click', event => {
+  //   //   event.currentTarget.style.transition = ' all 0.5s ease'
+  //   // }))
+  // }
+  methods: {
+    descend: function (event) {
+      if (event.currentTarget.style.height === '26vh') {
+        event.currentTarget.style.height = '5vh'
+      } else {
+        event.currentTarget.style.height = '26vh'
+      }
+    }
   }
 }
 </script>
@@ -37,6 +45,7 @@ export default {
 
 }
 .Partenaire{
+    transition : all 0.5s ease;
     background-color: beige;
     display: flex;
     flex-wrap: wrap;
@@ -53,7 +62,6 @@ export default {
 }
 .Partenaire:hover{
     height: 26vh;
-    transition: all 0.5s ease;
 }
 .logo{
   height: 20vh;
