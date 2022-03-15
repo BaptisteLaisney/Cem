@@ -2,16 +2,18 @@
     <div :id="id"  class="Presentation" :style="bg">
         <div class="survole">
             <div class="gauche" :style="bg">
-                <br><br>
-                <div class="nom-artiste" >{{artiste}}</div>
                 <br>
-                <div class="text-presentation">
-                    {{presentation_text}}
-                </div>
+                <div class="nom-artiste" > {{artiste}} </div>
+                <br>
+                <div class="text-presentation" v-html="presentation_text"></div>
                 <iframe class="video" :src="link_yt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
+        
         <img class="image-artiste" v-bind:src="require('@/assets/images/artistes/' + image)"/>
+        <div class="dessus"></div>
+        
+
 
     </div>
 </template>
@@ -37,6 +39,14 @@ export default {
 }
 </script>
 <style scoped>
+.dessus{
+    height: 100vh;
+    width: 50%;
+    background-color:white ;
+    position: absolute;
+    right:0px;
+    z-index: 9;
+}
 .Presentation{
     /* background: var(--color); */
     background: white;
@@ -51,7 +61,7 @@ export default {
     left:0px;
     height: 100vh;
     opacity: .99;
-    z-index: 9;
+    z-index: 8;
     border-right: 3px solid white;
 }
 .survole{
@@ -83,15 +93,26 @@ export default {
 }
 .text-presentation{
     margin:30px;
-    font-size: 110%;
+    margin-top:0px;
+    font-size: 2vh;
     padding: 20px;
+    padding-top:5px ;
+    text-align: left;
     background-color: white;
     border-radius: 5px;
+    color:black;
 }
 
 .survole:hover + .image-artiste{
     left:50%;
     transition: 2s;
+} 
+.survole:hover ~ .dessus{
+    opacity: 0;
+    transition: 2s;
 }
 
+.text-presentation >>> mark, mark{
+    background-color:#FF7F50;
+}
 </style>

@@ -13,6 +13,7 @@
             </div>
         </div>
         <img class="image-artiste" v-bind:src="require('@/assets/images/artistes/' + image)"/>
+        <div class="dessus"></div>
 
     </div>
 </template>
@@ -38,6 +39,14 @@ export default {
 }
 </script>
 <style scoped>
+.dessus{
+    height: 100vh;
+    width: 50%;
+    background-color:white ;
+    position: absolute;
+    left:0px;
+    z-index: 9;
+}
 .fantome{
     position: relative;
     height: 100vh;
@@ -100,5 +109,8 @@ export default {
     right:50%;
     transition: 2s;
 }
-
+.survole:hover ~ .dessus{
+    opacity: 0;
+    transition: 2s;
+}
 </style>

@@ -2,11 +2,7 @@
     <div class="Partenaire" v-on:click="descend">
         <div class="Categorie">{{nom}}</div>
         <div class="logos">
-          <img class="logo" src="@/assets/images/artistes/A2H.jpg" alt="">
-          <img class="logo" src="@/assets/images/artistes/A2H.jpg" alt="">
-          <img class="logo" src="@/assets/images/artistes/A2H.jpg" alt="">
-          <img class="logo" src="@/assets/images/artistes/A2H.jpg" alt="">
-          <img class="logo" src="@/assets/images/artistes/A2H.jpg" alt="">
+          <img class="logo" v-for="item in getdata()" :key="item.message" :src="require('@/assets/images/Partenaires/' + item.message)" :alt="item.message">
         </div>
     </div>
 </template>
@@ -14,27 +10,26 @@
 export default {
   name: 'Partenaire',
   props: {
-    nom: String
+    nom: String,
+    listepartenaires: Array
   },
-  // mounted () {
-  //   // const elements = document.querySelectorAll('.Partenaire')
-  //   // elements.forEach(el => el.addEventListener('click', event => {
-  //   //   event.currentTarget.style.transition = ' all 0.5s ease'
-  //   // }))
-  // }
   methods: {
     descend: function (event) {
-      if (event.currentTarget.style.height === '26vh') {
+      if (event.currentTarget.style.height === '50vh') {
         event.currentTarget.style.height = '5vh'
       } else {
-        event.currentTarget.style.height = '26vh'
+        event.currentTarget.style.height = '50vh'
       }
+    },
+    getdata: function () {
+      return this.listepartenaires
     }
   }
 }
 </script>
 <style scoped>
 .Categorie{
+    height:5vh;
     width: 100%;
     font-size: 3vh;
     display: flex;
@@ -42,28 +37,30 @@ export default {
     padding: 1vh;
     color: #FF7F50 ;
     border-bottom: solid white 1vh;
+    /* background-color: beige; */
 
 }
 .Partenaire{
     transition : all 0.5s ease;
-    background-color: beige;
-    display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 80%;
     height: 5vh;
     overflow: hidden;
+    top:0px;
 }
 .logos{
     height:20vh;
     width: 100%;
     display: flex;
+    flex-direction:row ;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: left;
 }
 .Partenaire:hover{
-    height: 26vh;
+    height: 50vh;
 }
 .logo{
-  height: 20vh;
+  height: 12vh;
+  margin:2vh;
 }
 </style>

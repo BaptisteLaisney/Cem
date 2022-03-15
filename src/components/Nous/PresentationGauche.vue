@@ -1,6 +1,6 @@
 <template>
     <div class="PresentationGauche">
-        <img class = "logo-partenaire" :src="require('@/assets/images/Partenaires/' + image)" alt="Image Orga">
+        <img class = "logo-partenaire" :src="require('@/assets/images/Nous/' + image)" alt="Image Orga">
         <div class="trait"></div>
         <TextPresentation :titre="titre"/>
     </div>

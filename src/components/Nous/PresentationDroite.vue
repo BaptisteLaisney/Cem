@@ -2,7 +2,7 @@
     <div class="PresentationDroite">
         <TextPresentation :titre = "titre" />
         <div class="trait"></div>
-        <img class = "logo-partenaire" :src="require('@/assets/images/Partenaires/' + image)" alt="Image Orga">
+        <img class = "logo-partenaire" :src="require('@/assets/images/Nous/' + image)" alt="Image Orga">
     </div>
 </template>
 <script>
