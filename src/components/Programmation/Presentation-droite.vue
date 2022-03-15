@@ -51,6 +51,8 @@ export default {
     /* background: var(--color); */
     background: white;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
     height: 100vh;
     overflow: hidden;
     position: relative;
@@ -78,18 +80,18 @@ export default {
     height: 100vh;
     /* background: var(--color); */
     background: white;
-    border-right:2px white solid;
 }
 .video{
     z-index: 1;
-    bottom: 5%;
-    left:5%;
-    width:80%;
+    width:100%;
     height: 40vh;
+    position: absolute;
+    bottom: 0px;
+    left:0vh;
 
 }
 .nom-artiste{
-    font-size: 50px;
+    font-size: 7vh;
 }
 .text-presentation{
     margin:30px;
@@ -115,4 +117,52 @@ export default {
 .text-presentation >>> mark, mark{
     background-color:#FF7F50;
 }
+
+@media screen and (max-width:1000px){
+    .image-artiste{
+        right:-50vh;
+        left:unset;
+        position: absolute;
+        height: 100vh;
+        opacity: .99;
+        z-index: 8;
+        overflow: hidden;
+        border-right: 3px solid white;
+
+    }
+    .survole:hover + .image-artiste{
+        left:unset;
+    }
+    .survole ~ .dessus{
+        opacity: 0;
+        transition: 2s;
+    } 
+    .gauche{
+        width: 80%;
+    }
+    .text-presentation{
+        margin-left:2px;
+        margin-right:2px;
+        font-size: 1.55vh;
+        padding:10px;
+    }
+    .video{
+        height:40vh;
+    }
+    .nom-artiste{
+        font-size: 5vh;
+    }
+}
+@media screen and (max-width:500px){
+    .video{
+        height:30vh;
+    }
+}
+@media screen and (max-width:350px){
+    .video{
+        height:20vh;
+    }
+}
+
+
 </style>

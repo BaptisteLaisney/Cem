@@ -88,10 +88,11 @@ export default {
 }
 .video{
     z-index: 1;
-    bottom: 5%;
-    left:5%;
-    width:80%;
+    width:100%;
     height: 40vh;
+    position: absolute;
+    bottom: 0px;
+    left:0vh;
 
 }
 .nom-artiste{
@@ -112,5 +113,57 @@ export default {
 .survole:hover ~ .dessus{
     opacity: 0;
     transition: 2s;
+}
+@media screen and (max-width:1000px){
+
+}
+@media screen and (max-width:1000px){
+    .image-artiste{
+        left:-75vh;
+        right:unset;
+        position: absolute;
+        height: 100vh;
+        opacity: .99;
+        z-index: 8;
+        overflow: hidden;
+        border-right: 3px solid white;
+
+    }
+    .survole:hover + .image-artiste{
+        right:unset;
+    }
+    .survole ~ .dessus{
+        opacity: 0;
+        transition: 2s;
+    } 
+    .gauche{
+        width: 80%;
+    }
+    .text-presentation{
+        margin-left:2px;
+        margin-right:2px;
+        font-size: 1.55vh;
+        padding:10px;
+    }
+    .video{
+        height:40vh;
+    }
+    .nom-artiste{
+        font-size: 5vh;
+    }
+    .fantome{
+        left: 0;
+        width: 20%;
+    }
+}
+@media screen and (max-width:500px){
+    .video{
+        height:30vh;
+    }
+}
+@media screen and (max-width:350px){
+    .video{
+        height:20vh;
+    }
 }
 </style>
