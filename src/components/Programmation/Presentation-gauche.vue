@@ -3,9 +3,7 @@
         <div class="survole">
             <div class="fantome"></div>
             <div class="gauche" :style="bg">
-                <br><br>
                 <div class="nom-artiste" >{{artiste}}</div>
-                <br>
                 <div class="text-presentation" v-html="presentation_text"></div>
                 <iframe class="video" :src="link_yt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -94,7 +92,9 @@ export default {
 
 }
 .nom-artiste{
-    font-size: 50px;
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    color:#284e99;
 }
 .text-presentation{
     margin:30px;
@@ -106,6 +106,8 @@ export default {
     background-color: white;
     border-radius: 5px;
     color:black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 .survole:hover + .image-artiste{

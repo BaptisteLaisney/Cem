@@ -1,3 +1,5 @@
+
+
 <template>
   <Navigation/>
   <router-view/>
@@ -16,6 +18,9 @@ export default {
 }
 </script>
 <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&display=swap');
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -25,7 +30,6 @@ export default {
 }
 
 body{
-
   margin:0px;
   min-height: 100vh;
 }
