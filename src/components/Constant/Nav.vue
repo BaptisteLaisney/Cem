@@ -39,11 +39,11 @@ export default {
       let isclicked = false
       document.getElementById("dp").addEventListener("click" , function(event){
           if(isclicked){
-              document.getElementById("dropdown-content").style = "visibility: hidden"
+              document.getElementById("dropdown-content").style.visibility = "hidden"
               isclicked = false
           }
           else{
-            document.getElementById("dropdown-content").style = "visibility: inherit"
+            document.getElementById("dropdown-content").style.visibility ="inherit"
             isclicked = true
           }
          
@@ -53,13 +53,12 @@ export default {
   
 }
 </script>
-<style>
+<style scoped>
 a,.item-menu{
     text-decoration: none;
-    color: #FF7F50 ;
-}
-.button-nav{
-    font-size: 27px;
+    color: #ce6029;
+    font-family:'Bebas Neue', cursive; 
+    font-size: 30px;
 }
 .menu{
     margin:solid black;
@@ -67,7 +66,7 @@ a,.item-menu{
     text-align: center;
     justify-content: space-between;
     padding-bottom: 20px;
-    margin-top:20px
+    padding-top:20px;
     /* background-color: #dfd9ca69 ; */
 }
 #dp{
@@ -95,7 +94,7 @@ a,.item-menu{
     bottom:0px;
 }
 .button-nav:hover + .barre{
-    background-color: #FF7F50 ;
+    background-color: #ce6029 ;
 }
 #dropdown-content{
     display: flex;
@@ -125,21 +124,21 @@ a,.item-menu{
 }
 .item-drop-down{
     margin:0px;
-    font-size: 20px;
+    font-size: 25px;
 }
 .button-drop{
     margin-bottom: 0px;
 }
 #nav-billetterie{
-    background-color: #FF7F50 ;
+    background-color: #ce6029 ;
     color:white;
     margin:10px;
     padding:20px;
     border-radius: 10px;
-    border:#FF7F50 solid;
+    border:#ce6029 solid;
 }
 #nav-billetterie:hover{
-    color: #FF7F50;
+    color: #ce6029;
     background: white;
 
 }
@@ -152,8 +151,8 @@ a,.item-menu{
     .item-contain{
         width: 100%;
     }
-    .item-menu, .button-nav{
-        font-size:23px;
+    .item-menu, a{
+        font-size:30px;
     }
 
 }

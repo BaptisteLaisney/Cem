@@ -1,6 +1,7 @@
 <template>
   <div class="Accueil">
-    <Banniere/>
+    <Banniere class="banniere"/>
+    <br><br>
     <Artistes/>
   </div>
 </template>
@@ -22,7 +23,8 @@ export default {
 }
 </script>
 <style nosope>
-#Accueil{
-  /* background-color:black ; */
+.banniere{
+  border-top: 0.5vh solid #ce6029;
 }
+
 </style>

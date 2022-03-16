@@ -1,9 +1,13 @@
 
 
 <template>
-  <Navigation/>
-  <router-view/>
-  <Footer id="footer"/>
+  <div id="app">
+    <Navigation/>
+    <router-view/>
+    <Footer  id="footer"/>
+    
+  </div>
+
 </template>
 
 <script>
@@ -26,11 +30,19 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  min-height: 100vh;
+  color :black;
 }
 
 body{
   margin:0px;
   min-height: 100vh;
 }
+h1{
+  font-family:'Bebas Neue', cursive; 
+  color: #284e99;
+  font-size: 50px;
+}
+
+
 </style>
