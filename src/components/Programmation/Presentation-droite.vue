@@ -131,7 +131,7 @@ br{
         font-size: 14px;
     }
 }
-@media screen and (max-width:1000px){
+@media screen and (max-width:1100px){
     .image-artiste{
         right:-50vh;
         left:unset;
@@ -142,6 +142,9 @@ br{
         overflow: hidden;
         border-right: 3px solid white;
 
+    }
+    .video{
+        visibility: hidden;
     }
     .survole:hover + .image-artiste{
         left:unset;
@@ -154,7 +157,7 @@ br{
         width: 80%;
     }
     .text-presentation{
-        font-size: 13px;
+        font-size: 20px;
     }
     .video{
         height:40vh;
@@ -163,17 +166,17 @@ br{
         font-size: 5vh;
     }
 }
-@media screen and (max-width:550px){
+@media screen and (max-width:700px){
     .video{
         height:30vh;
     }
     .text-presentation{
-        font-size: 11px;
+        font-size: 16px;
     }
 }
-@media screen and (max-width:350px){
-    .video{
-        height:15vh;
+@media screen and (max-width:450px){
+    .text-presentation{
+        font-size: 14px;
     }
 }
 

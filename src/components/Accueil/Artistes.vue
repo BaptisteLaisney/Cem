@@ -104,6 +104,7 @@ export default {
         }else{
           event.currentTarget.instance.nextdown();
         }
+
         setTimeout(function () {
           scrolling = false;
           
