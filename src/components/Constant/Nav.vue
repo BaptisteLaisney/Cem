@@ -14,11 +14,11 @@
         <router-link to="/"><img class="logo-ondee" src="@/assets/images/charte-graphique/logo.png" alt=""></router-link>
         <div class="item-contain">
             <div>
-                <div class="dp">
+                <div id="dp">
                     <div class="item-menu button-drop button-nav">À propos</div>
                     <div class="barre"></div>
                 </div>
-                <div class="dropdown-content">
+                <div id="dropdown-content">
                     <router-link class = "item-menu item-drop-down" to="/Partenaires">Nos partenaires</router-link>
                     <router-link class = "item-menu item-drop-down" to="/Projet">Le projet</router-link>
                     <router-link class = "item-menu item-drop-down" to="/Nous">Qui sommes-nous ?</router-link>
@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="item-menu" >
-                <router-link id="nav-billetterie" to="/Billeterie">Billetterie</router-link>
+                <router-link id="nav-billetterie" to="/Billeterie" class="item-menu">Billetterie</router-link>
                 <div class="barre"></div>
             </div>
         </div>
@@ -34,7 +34,23 @@
 </template>
 <script>
 export default {
-  name: 'Menu'
+  name: 'Menu',
+  mounted() {
+      let isclicked = false
+      document.getElementById("dp").addEventListener("click" , function(event){
+          if(isclicked){
+              document.getElementById("dropdown-content").style = "visibility: hidden"
+              isclicked = false
+          }
+          else{
+            document.getElementById("dropdown-content").style = "visibility: inherit"
+            isclicked = true
+          }
+         
+          
+      })
+  }
+  
 }
 </script>
 <style>
@@ -48,14 +64,13 @@ a,.item-menu{
 .menu{
     margin:solid black;
     display: flex;
-    flex-wrap: wrap;
     text-align: center;
     justify-content: space-between;
     padding-bottom: 20px;
     margin-top:20px
     /* background-color: #dfd9ca69 ; */
 }
-.dp{
+#dp{
     position: relative;
 }
 .item-menu{
@@ -82,7 +97,7 @@ a,.item-menu{
 .button-nav:hover + .barre{
     background-color: #FF7F50 ;
 }
-.dropdown-content{
+#dropdown-content{
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -93,10 +108,10 @@ a,.item-menu{
     border-radius: 5px;
     background: white;
 }
-.dp:hover + .dropdown-content{
+#dp:hover + #dropdown-content{
     visibility: inherit;
 }
-.dropdown-content:hover {
+#dropdown-content:hover {
     visibility: inherit;
 }
 .item-contain{
@@ -126,6 +141,20 @@ a,.item-menu{
 #nav-billetterie:hover{
     color: #FF7F50;
     background: white;
+
+}
+@media screen and (max-width:1050px){
+    .menu{
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .item-contain{
+        width: 100%;
+    }
+    .item-menu, .button-nav{
+        font-size:23px;
+    }
 
 }
 </style>
