@@ -99,7 +99,7 @@ export default {
     font-size: 2vh;
     padding: 20px;
     padding-top:5px ;
-    text-align: left;
+    text-align: justify;
     background-color: white;
     border-radius: 5px;
     color:black;
@@ -117,7 +117,15 @@ export default {
 .text-presentation >>> mark, mark{
     background-color:#FF7F50;
 }
+@media screen and (max-width:1250px){
 
+    .text-presentation{
+        margin-left:4%;
+        margin-right:4%;
+        padding:10px;
+        font-size: 14px;
+    }
+}
 @media screen and (max-width:1000px){
     .image-artiste{
         right:-50vh;
@@ -141,10 +149,7 @@ export default {
         width: 80%;
     }
     .text-presentation{
-        margin-left:2px;
-        margin-right:2px;
-        font-size: 1.55vh;
-        padding:10px;
+        font-size: 13px;
     }
     .video{
         height:40vh;
@@ -153,14 +158,17 @@ export default {
         font-size: 5vh;
     }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:550px){
     .video{
         height:30vh;
+    }
+    .text-presentation{
+        font-size: 11px;
     }
 }
 @media screen and (max-width:350px){
     .video{
-        height:20vh;
+        height:15vh;
     }
 }
 

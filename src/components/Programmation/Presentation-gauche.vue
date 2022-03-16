@@ -6,9 +6,7 @@
                 <br><br>
                 <div class="nom-artiste" >{{artiste}}</div>
                 <br>
-                <div class="text-presentation">
-                    {{presentation_text}}
-                </div>
+                <div class="text-presentation" v-html="presentation_text"></div>
                 <iframe class="video" :src="link_yt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
@@ -100,10 +98,14 @@ export default {
 }
 .text-presentation{
     margin:30px;
-    font-size: 110%;
+    margin-top:0px;
+    font-size: 2vh;
     padding: 20px;
+    padding-top:5px ;
+    text-align: justify;
     background-color: white;
     border-radius: 5px;
+    color:black;
 }
 
 .survole:hover + .image-artiste{
@@ -114,8 +116,14 @@ export default {
     opacity: 0;
     transition: 2s;
 }
-@media screen and (max-width:1000px){
+@media screen and (max-width:1250px){
 
+    .text-presentation{
+        margin-left:4%;
+        margin-right:4%;
+        padding:10px;
+        font-size: 14px;
+    }
 }
 @media screen and (max-width:1000px){
     .image-artiste{
@@ -140,10 +148,8 @@ export default {
         width: 80%;
     }
     .text-presentation{
-        margin-left:2px;
-        margin-right:2px;
-        font-size: 1.55vh;
-        padding:10px;
+        font-size: 13px;
+
     }
     .video{
         height:40vh;
@@ -156,14 +162,18 @@ export default {
         width: 20%;
     }
 }
-@media screen and (max-width:500px){
+
+@media screen and (max-width:550px){
     .video{
         height:30vh;
+    }
+    .text-presentation{
+        font-size: 11px;
     }
 }
 @media screen and (max-width:350px){
     .video{
-        height:20vh;
+        height:15vh;
     }
 }
 </style>

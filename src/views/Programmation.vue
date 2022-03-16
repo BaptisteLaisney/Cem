@@ -28,7 +28,9 @@ export default {
       "Spider ZED se fait l’artisan d’une poésie du quotidien tristement amusante  et se refuse à toute tentative d’embellir la réalité. Ses morceaux, parfois loufoques d’un premier abord, révèlent souvent un  spleen véritable et traduisent dans la plupart des cas une volonté d’aller à contre-courant des codes traditionnellement véhiculés par l’industrie du divertissement."
     },
     getTextA2H(){
-      return ""
+      return "Après deux disques au fort succès d’estime, \"Libre\" (2016) et \"L’Amour\" (2018), A2H offre avec \"Rédemption\" en  2020 un  album  riche  qui  réunit  autour  d'une  proposition  musicale  ambitieuse  un large public. <br><br>"+
+      "En 2022, A2H continue d’affirmer sa place si singulière surla  scène  française  portée  par  un  talent protéiforme,délivrant une musique qui touche l’excellence et un parcours sans faute. A2H revient ainsi auprès du public avec un double album \"Une rose et une lame\", synthétisant ses deux facettes, \"Une rose\" étant le volet plus chanté et \"Une lame\" étant le volet rap. <br><br>"+
+      "Avec  \"Une  rose  et  une  lame\",  A2H  amène  sa  musique  sur  un  nouveau  niveau  de  popularité  et  de compétition artistique. A2H réalise un déroulé parfait sur les deux registres, chansons et rap. Bête de scène,  musicien  aguerri,  réussissant  àfédérer continuellement un nouveau public, miroir d’un auditoire   mixte   qui   se   retrouve   dans   ses   thématiques   intimes   abordées,   A2H   a   les   épaules suffisamment larges pour porter un vent de renouveau sur la scène musicale française."
     },
     getTextJyeu(){
       return "Tête bien faite et tête bien pleine, c’est peu de dire que Jyeuhair possède les deux et sait en faire une force. Productions et textes soignés, clips très personnels,  goût prononcé pour l’expérimentation, l’artiste de 23 ans insuffle à sa musique sa sensibilité en la nourrissant de toutes les influences de son monde intérieur.<br><br>" +
