@@ -1,5 +1,6 @@
 <template>
     <footer>
+        <img class ="logoOndees" src="@/assets/images/charte-graphique/logo_blanc.png" alt="Logo Ondées">
         <div class="text">Suivez nous !</div>
         <div class="Conteneur-Reseaux">
             <img src="@/assets/images/logos/facebook.png" alt="Logo Facebook" class="item-sociaux">
@@ -51,5 +52,8 @@ a{
 }
 .item-info:hover{
     text-decoration: underline;
+}
+.logoOndees{
+    height: 150px;
 }
 </style>

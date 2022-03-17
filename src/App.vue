@@ -43,6 +43,19 @@ h1{
   color: #284e99;
   font-size: 50px;
 }
-
+h2{
+  font-family:'Bebas Neue', cursive; 
+  color: #284e99;
+  font-size: 35px;
+  margin-top: 10px;
+   margin-bottom: 10px;
+}
+h3{
+  font-family:'Bebas Neue', cursive; 
+  color: #ce6029;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
 </style>

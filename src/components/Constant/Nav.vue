@@ -26,7 +26,8 @@
                 </div>
             </div>
             <div class="item-menu" >
-                <router-link id="nav-billetterie" to="/Billeterie" class="item-menu">Billetterie</router-link>
+                <!-- <a id="nav-billetterie" to="/Billeterie" class="item-menu"></a> -->
+                <a id="nav-billeterie" class="item-menu" href="https://my.weezevent.com/lecargo-a2h-spiderzed-jyeuhair" target="_blank">Billeterie</a>
                 <div class="barre"></div>
             </div>
         </div>
@@ -129,7 +130,7 @@ a,.item-menu{
 .button-drop{
     margin-bottom: 0px;
 }
-#nav-billetterie{
+#nav-billeterie{
     background-color: #ce6029 ;
     color:white;
     margin:10px;
@@ -137,7 +138,7 @@ a,.item-menu{
     border-radius: 10px;
     border:#ce6029 solid;
 }
-#nav-billetterie:hover{
+#nav-billeterie:hover{
     color: #ce6029;
     background: white;
 

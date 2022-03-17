@@ -15,10 +15,10 @@ export default {
   },
   methods: {
     descend: function (event) {
-      if (event.currentTarget.style.height === '50vh') {
+      if (event.currentTarget.style.height === 'auto') {
         event.currentTarget.style.height = '5vh'
       } else {
-        event.currentTarget.style.height = '50vh'
+        event.currentTarget.style.height = 'auto'
       }
     },
     getdata: function () {
@@ -49,7 +49,6 @@ export default {
     top:0px;
 }
 .logos{
-    height:20vh;
     width: 100%;
     display: flex;
     flex-direction:row ;
@@ -57,7 +56,8 @@ export default {
     justify-content: left;
 }
 .Partenaire:hover{
-    height: 50vh;
+    height: auto;
+    transition : all 0.5s ease;
 }
 .logo{
   height: 12vh;
