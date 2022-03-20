@@ -5,7 +5,7 @@
             <div class="gauche" :style="bg">
                 <div class="nom-artiste" >{{artiste}}</div>
                 <div class="text-presentation" v-html="presentation_text"></div>
-                <iframe class="video" :src="link_yt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="video" :src="link_yt" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
         <img class="image-artiste" v-bind:src="require('@/assets/images/artistes/' + image)"/>
@@ -99,7 +99,6 @@ export default {
 .text-presentation{
     margin:30px;
     margin-top:0px;
-    font-size: 2vh;
     padding: 20px;
     padding-top:5px ;
     text-align: justify;
@@ -157,7 +156,7 @@ export default {
         visibility: hidden;
     }
     .nom-artiste{
-        font-size: 5vh;
+        font-size: 35px;
     }
     .fantome{
         left: 0;

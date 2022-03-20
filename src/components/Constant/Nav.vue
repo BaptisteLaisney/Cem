@@ -1,12 +1,12 @@
 <template>
     <div class="menu">
-        <div class="item-contain">
+        <div class="item-contain invisible">
             <div class="item-menu">
-                <router-link class="button-nav" to="/Programmation">Programmation</router-link>
+                <router-link class="invisible button-nav" to="/Programmation">Programmation</router-link>
                 <div class="barre"></div>
             </div>
             <div class="item-menu">
-                <router-link class="button-nav" to="/Village">Le village culturel</router-link>
+                <router-link class="invisible button-nav" to="/Village">Le village culturel</router-link>
                 <div class="barre"></div>
             </div>
         </div>
@@ -20,14 +20,14 @@
                 </div>
                 <div id="dropdown-content">
                     <router-link class = "item-menu item-drop-down" to="/Partenaires">Nos partenaires</router-link>
-                    <router-link class = "item-menu item-drop-down" to="/Projet">Le projet</router-link>
                     <router-link class = "item-menu item-drop-down" to="/Nous">Qui sommes-nous ?</router-link>
                     <router-link class = "item-menu item-drop-down" to="/Infos">Infos pratiques</router-link>
+                    <router-link class = "item-menu item-drop-down" to="/Programmation">Programmation</router-link>
+                    <router-link class = "item-menu item-drop-down" to="/Village">Le village culturel</router-link>
                 </div>
             </div>
             <div class="item-menu" >
-                <!-- <a id="nav-billetterie" to="/Billeterie" class="item-menu"></a> -->
-                <a id="nav-billeterie" class="item-menu" href="https://my.weezevent.com/lecargo-a2h-spiderzed-jyeuhair" target="_blank">Billeterie</a>
+                <router-link id="nav-billeterie" to="/Billeterie" class="item-menu">Billeterie</router-link>
                 <div class="barre"></div>
             </div>
         </div>
@@ -101,7 +101,8 @@ a,.item-menu{
     display: flex;
     flex-direction: column;
     position: absolute;
-
+    height:150px;
+    overflow: hidden;
     visibility: hidden;
     z-index: 20;
     opacity: .99;
@@ -155,6 +156,13 @@ a,.item-menu{
     .item-menu, a{
         font-size:30px;
     }
+    #dropdown-content{
+        height:auto;
+    }
+    .invisible{
+        display: none;
+    }
+
 
 }
 </style>

@@ -19,7 +19,7 @@ export default {
     text-align: left;
     padding:5px;
     margin-left: 3%;
-    background-color: rgba(211, 211, 211, 0.932);
+    background-color: rgb(224, 224, 224);
     box-shadow: 5px 5px 5px gray ;
     border-radius: 1px;
     margin-bottom: 20px;
