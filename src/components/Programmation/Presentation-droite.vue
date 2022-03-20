@@ -1,5 +1,7 @@
 <template>
     <div :id="id"  class="Presentation" :style="bg">
+        <a :href="insta" class="insta lien" target="_blank" ><img  class="logo" src="@/assets/images/logos/instagram.png" /></a>
+        <a :href="face" class="book lien" target="_blank"><img class="logo" src="@/assets/images/logos/facebook.png" /></a>
         <div class="survole">
             <div class="gauche" :style="bg">
                 <div class="nom-artiste" > {{artiste}} </div>
@@ -24,7 +26,9 @@ export default {
     presentation_text: String,
     link_yt: String,
     color: String,
-    id: String
+    id: String,
+    insta: String,
+    face: String
   },
   computed: {
     bg () {
@@ -37,6 +41,26 @@ export default {
 }
 </script>
 <style scoped>
+.logo{
+    width: 100%;
+}
+.insta{
+    height: 50px;
+    width: 50px;
+
+    position: absolute;
+    z-index: 11;
+    left: 50%;
+    margin:10px;
+}
+.book{
+    height: 50px;
+    width: 50px;
+    margin:10px;
+    position: absolute;
+    z-index: 11;
+    left: calc(50% + 60px);
+}
 .dessus{
     height: 100vh;
     width: 50%;
@@ -61,7 +85,7 @@ export default {
     left:0px;
     height: 100vh;
     opacity: .99;
-    z-index: 8;
+    z-index: 7;
     border-right: 3px solid white;
 }
 .survole{
@@ -112,6 +136,14 @@ export default {
     left:50%;
     transition: 2s;
 } 
+.lien:hover ~ .image-artiste{
+    left:50%;
+    transition: 2s;
+}
+.lien:hover ~ .dessus{
+    opacity: 0;
+    transition: 2s;
+}
 .survole:hover ~ .dessus{
     opacity: 0;
     transition: 2s;
@@ -143,6 +175,15 @@ br{
         overflow: hidden;
         border-right: 3px solid white;
 
+    }
+    .insta{
+        right:0;
+        left: unset;
+    }
+    .book{
+        right:0;
+        left: unset;
+        top:60px;
     }
     .video{
         visibility: hidden;

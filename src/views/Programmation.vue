@@ -3,11 +3,11 @@
         <h1>Programmation</h1>
         <Artistes/>
         <br><br>
-        <Presentationd id="Spider_pres" color = "rgb(162,163,185)" link_yt ="https://www.youtube.com/embed/scXngX8uFYs" artiste="Spider Zed" image="spider_zed.jpg" :presentation_text="getTextSpider()"/>
-        <Presentationg id="A2H_pres" color = "rgb(207,54,48)" link_yt ="https://www.youtube.com/embed/kUhDGwYKCNY" artiste="A2H" image="A2H.jpg" :presentation_text="getTextA2H()" />
-        <Presentationd id="Jyeu_pres" color = "rgb(219,204,181)" link_yt ="https://www.youtube.com/embed/z-DZQ1zVfzY" artiste="J Y E U H A I R" image="Jyeuhair.jpg" :presentation_text="getTextJyeu()"/>
-        <Presentationg id="SonVert_pres" color = "rgb(207,54,48)" link_yt ="https://www.youtube.com/embed/adVwWG9UKGU" artiste="Le Son Vert" image="SonVert.jpg" :presentation_text="getTextSonVert()" />
-        <Presentationd id="Dj_pres" color = "rgb(207,54,48)" link_yt ="https://www.youtube.com/embed/adVwWG9UKGU" artiste="Dj Set" image="SonVert.jpg" :presentation_text="getTextDj()" />
+        <Presentationd id="Spider_pres" color = "rgb(162,163,185)" link_yt ="https://www.youtube.com/embed/scXngX8uFYs" artiste="Spider Zed" image="spider_zed.jpg" :presentation_text="getTextSpider()" insta="https://www.instagram.com/spiderzed/" face="https://www.facebook.com/SpiderZED" />
+        <Presentationg id="A2H_pres" color = "rgb(207,54,48)" link_yt ="https://www.youtube.com/embed/kUhDGwYKCNY" artiste="A2H" image="A2H.jpg" :presentation_text="getTextA2H()" insta="https://www.instagram.com/a2hpalace/" face="https://www.facebook.com/profile.php?id=100050381984536" />
+        <Presentationd id="Jyeu_pres" color = "rgb(219,204,181)" link_yt ="https://www.youtube.com/embed/z-DZQ1zVfzY" artiste="J Y E U H A I R" image="Jyeuhair.jpg" :presentation_text="getTextJyeu()" insta="https://www.instagram.com/jyeuhair/" face="https://www.facebook.com/jyeuhairjyeuhair/" />
+        <Presentationg id="SonVert_pres" color = "rgb(207,54,48)" link_yt ="https://www.youtube.com/embed/adVwWG9UKGU" artiste="Le Son Vert" image="SonVert.jpg" :presentation_text="getTextSonVert()" insta="https://www.instagram.com/lesonvert_/" face="https://www.facebook.com/lesonvert" />
+        <Presentationd id="Dj_pres" color = "rgb(207,54,48)" link_yt ="https://www.youtube.com/embed/adVwWG9UKGU" artiste="Dj Set" image="SonVert.jpg" :presentation_text="getTextDj()" insta="https://www.instagram.com/spiderzed/" face="https://www.facebook.com/SpiderZED" />
     </div>
 </template>
 <script>

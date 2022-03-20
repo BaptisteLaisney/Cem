@@ -27,7 +27,7 @@
                 </div>
             </div>
             <div class="item-menu" >
-                <router-link id="nav-billeterie" to="/Billeterie" class="item-menu">Billeterie</router-link>
+                <router-link id="nav-billetterie" to="/Billetterie" class="item-menu">Billetterie</router-link>
                 <div class="barre"></div>
             </div>
         </div>
@@ -131,7 +131,7 @@ a,.item-menu{
 .button-drop{
     margin-bottom: 0px;
 }
-#nav-billeterie{
+#nav-billetterie{
     background-color: #ce6029 ;
     color:white;
     margin:10px;
@@ -139,7 +139,7 @@ a,.item-menu{
     border-radius: 10px;
     border:#ce6029 solid;
 }
-#nav-billeterie:hover{
+#nav-billetterie:hover{
     color: #ce6029;
     background: white;
 

@@ -1,5 +1,7 @@
 <template>
     <div :id="id"  class="Presentation" :style="bg">
+        <a :href="insta" class="insta lien" target="_blank" ><img  class="logo" src="@/assets/images/logos/instagram.png" /></a>
+        <a :href="face" class="book lien" target="_blank"><img class="logo" src="@/assets/images/logos/facebook.png" /></a>
         <div class="survole">
             <div class="fantome"></div>
             <div class="gauche" :style="bg">
@@ -10,6 +12,7 @@
         </div>
         <img class="image-artiste" v-bind:src="require('@/assets/images/artistes/' + image)"/>
         <div class="dessus"></div>
+
 
     </div>
 </template>
@@ -22,7 +25,9 @@ export default {
     presentation_text: String,
     link_yt: String,
     color: String,
-    id: String
+    id: String,
+    insta: String,
+    face: String
   },
   computed: {
     bg () {
@@ -35,6 +40,26 @@ export default {
 }
 </script>
 <style scoped>
+.logo{
+    width: 100%;
+}
+.insta{
+    height: 50px;
+    width: 50px;
+
+    position: absolute;
+    z-index: 11;
+    left: 0;
+    margin:10px;
+}
+.book{
+    height: 50px;
+    width: 50px;
+    margin:10px;
+    position: absolute;
+    z-index: 11;
+    left: 60px;
+}
 .dessus{
     height: 100vh;
     width: 50%;
@@ -108,7 +133,14 @@ export default {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
-
+.lien:hover ~ .image-artiste{
+    right:50%;
+    transition: 2s;
+}
+.lien:hover ~ .dessus{
+    opacity: 0;
+    transition: 2s;
+}
 .survole:hover + .image-artiste{
     right:50%;
     transition: 2s;
@@ -117,6 +149,7 @@ export default {
     opacity: 0;
     transition: 2s;
 }
+
 @media screen and (max-width:1250px){
 
     .text-presentation{
@@ -162,6 +195,16 @@ export default {
         left: 0;
         width: 20%;
     }
+    .insta{
+        left:0;
+        right: unset;
+    }
+    .book{
+        left:0;
+        right: unset;
+        top:60px;
+    }
+
 }
 
 @media screen and (max-width:700px){

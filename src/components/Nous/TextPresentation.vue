@@ -54,8 +54,6 @@ export default {
     width: 1000000px;
     /* animation : glisse 10s infinite; */
 }
-.image{
-}
 mark{
     background-color:#FF7F50;
 }
