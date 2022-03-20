@@ -42,6 +42,8 @@ h1{
   font-family:'Bebas Neue', cursive; 
   color: #284e99;
   font-size: 50px;
+  margin:auto;
+  margin-bottom:40px ;
 }
 h2{
   font-family:'Bebas Neue', cursive; 

@@ -4,10 +4,7 @@
             {{titre}}
         </div>
         <br>
-        <div class="Text">
-            bdhfskjil  hifhidh uifhiuh ihsidh hiduf hihsd hhui hi hfdsh ihdiu fhuidshui hdsuih fuihui dsfhuif hiush hi hi hi huih hsduiuh ezuis
-            bdhfskjil  hifhidh uifhiuh ihsidh hiduf hihsd hhui hi hfdsh ihdiu fhuidshui hdsuih fuihui dsfhuif hiush hi hi hi huih hsduiuh ezuis
-            bdhfskjil  hifhidh uifhiuh ihsidh hiduf hihsd hhui hi hfdsh ihdiu fhuidshui hdsuih <mark>fuihui dsfhuif hiush </mark> hi hi hi huih hsduiuh ezuis
+        <div class="Text" v-html="this.contenu">
         </div>
 
     </div>
@@ -16,14 +13,19 @@
 export default {
   name: 'TextPresentation',
   props: {
-    titre: String
+    titre: String,
+    contenu: String
   }
 }
 </script>
 
 <style scoped>
 .Text{
-    height: 15vh;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2vh;
+    text-align: justify;
 }
 .droite{
     width: 50%;
