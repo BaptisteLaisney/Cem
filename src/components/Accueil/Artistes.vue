@@ -95,24 +95,21 @@ export default {
     this.s = new scroll()
     let scrolling = false;
     
-    window.addEventListener('wheel', function(event){
-      if(!scrolling){
-        scrolling  = true;
-        if(event.deltaY < 0){
-          console.log("up")
-          event.currentTarget.instance.nextup();
-        }else{
-          event.currentTarget.instance.nextdown();
-        }
+    // window.addEventListener('wheel', function(event){
+    //   if(!scrolling){
+    //     scrolling  = true;
+    //     if(event.deltaY < 0){
+    //       event.currentTarget.instance.nextup();
+    //     }else{
+    //       event.currentTarget.instance.nextdown();
+    //     }
 
-        setTimeout(function () {
-          scrolling = false;
+    //     setTimeout(function () {
+    //       scrolling = false;
           
-          console.log('fin de scroll')
-        }, 500)
-      }
-
-    })
+    //     }, 500)
+    //   }
+    // })
     window.instance = this.s;
   }
 }

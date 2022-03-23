@@ -1,13 +1,15 @@
 <template>
   <div class="Accueil">
     <Banniere class="banniere"/>
-    <br><br>
-    <h1>Qu'est ce que les Ondées ?</h1>
+    <br>
+    <h1><br>Qu'est ce que les Ondées ?</h1>
     <div class="textPresentation">
       Porté par l’association (étudiante?) ACT’Ifs Campus 3 et coproduit par l’association Arts Attack , « Les Ondées » est un événement culturel et musical qui se déroulera le samedi 4 juin 2022 à Caen. <br><br>
-      Pour cette première édition, le public est convié sur l’esplanade du Cargö pour une journée mêlant joie et convivialité au sein d’un village culturel qui mettra en avant des acteurs locaux avec pour fil rouge : expression artistique et musique. <br><br>
+      Pour cette première édition, le public est convié sur l’esplanade du Cargö pour une journée mêlant joie et convivialité au sein d’un village culturel qui mettra en avant des acteurs locaux avec pour fil rouge : expression artistique et musique.<br><br>
     </div>
-    <h1>Une Programmation Musicale</h1>
+    <h1><br>Le Cargö </h1>
+   <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d627.3874045247231!2d-0.3473604160313096!3d49.18101896355624!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sfr!2sfr!4v1648044103471!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <h1><br><br>Une Programmation Musicale</h1>
     <div class="textPresentation">
       Une programmation musicale viendra rythmer la soirée sur la scène de musiques actuelles du Cargö. <br><br>
       
@@ -52,6 +54,11 @@ export default {
 }
 .Artistes{
   margin-bottom: 50px;
+}
+
+#map{
+  position: relative;
+  width: 90%;
 }
 
 </style>
