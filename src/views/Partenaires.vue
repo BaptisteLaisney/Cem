@@ -2,9 +2,7 @@
   <div class="Partenaires">
     <h1>Nos partenaires</h1>
     <Partenaire class="Partenaire" nom="INSTITUTIONNELS" :listepartenaires="getPublic()"/>
-    <Partenaire class="Partenaire" nom="PRIVÉS" :listepartenaires="getPrives()"/>
-    <Partenaire class="Partenaire" nom="MÉDIA"/>
-    <Partenaire class="Partenaire" nom="TECHNIQUE"/>
+    <Partenaire class="Partenaire" nom="MAJEURS" :listepartenaires="getPrives()"/>
     <Partenaire class="Partenaire" nom="FRIENDS" :listepartenaires="getFriends()" />
   </div>
 </template>
@@ -31,13 +29,13 @@ export default {
     },
     getPrives: function () {
       return [
-        { message: 'Prives/Caisse.png' }
+        { message: 'Prives/Caisse.png' },
+        { message: 'Friends/Auda.png' }
       ]
     },
     getFriends: function () {
       return [
-        { message: 'Friends/Cargo.jpg' },
-        { message: 'Friends/Auda.png' }
+        { message: 'Friends/Cargo.jpg' }
       ]
     }
   }

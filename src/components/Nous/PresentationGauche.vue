@@ -31,7 +31,7 @@ export default {
     height: auto;
 }
 .logo-partenaire{
-    height: 30vh;
+    height: 200px;
 }
 
 .trait{

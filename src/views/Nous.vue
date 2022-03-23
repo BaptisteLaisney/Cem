@@ -5,9 +5,9 @@
         <div class="espace"></div>
         <PresentationDroite image="Cargo.jpg" titre="Le Cargö" :contenu="getContenuCargo()"/>
         <div class="espace"></div>
-        <PresentationGauche image="ESAM.png" titre="Ecole de l'ESAM" :contenu="getContenuEsam()"/>
+        <PresentationGauche image="ESAM.png" titre="L'asso étudiante de l'ESAM" :contenu="getContenuEsam()"/>
         <div class="espace"></div>
-        <PresentationDroite image="TheMuses.png" titre="The Muses" :contenu="getContenuMuses()"/>
+        <PresentationDroite image="TheMuses.png" titre="The Muses TC" :contenu="getContenuMuses()"/>
     </div>
 
 </template>
@@ -50,7 +50,8 @@ export default {
     flex-wrap: wrap;
 }
 .espace{
-    height:10vh;
+    height:100px;
+    width: 100%;
 }
 @media screen and (max-width:1000px){
   .Nous{

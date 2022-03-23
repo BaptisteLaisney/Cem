@@ -1,10 +1,10 @@
 <template>
     <div class="Artistes">
-        <Artiste id="Spider" artiste="Spider Zed" image="spider_zed.jpg" v-on:click="gotospider"/>
-        <Artiste id="A2H" artiste="A2H" image="A2H.jpg" v-on:click="gotoA2H"/>
-        <Artiste id="Jyeu" artiste="J Y E U H A I R" image="Jyeuhair.jpg" v-on:click="gotoJyeu"/>
-        <Artiste id="SonVert" artiste="Le Son Vert" image="SonVert.jpg" v-on:click="gotoSonVert"/>
-        <Artiste id="Dj" artiste="DJ Set" image="SonVert.jpg" v-on:click="gotoDj"/>
+        <Artiste id="Spider" artiste="Spider Zed" image="spider_zed.jpg" v-on:click="gotospider" horaires="22h30 – 23h30"/>
+        <Artiste id="A2H" artiste="A2H" image="A2H.jpg" v-on:click="gotoA2H" horaires="20h55 – 22h10"/>
+        <Artiste id="Jyeu" artiste="J Y E U H A I R" image="Jyeuhair.jpg" v-on:click="gotoJyeu" horaires="19h50 – 20h35"/>
+        <Artiste id="SonVert" artiste="Le Son Vert" image="SonVert.jpg" v-on:click="gotoSonVert" horaires="19h00 – 19h30"/>
+        <Artiste id="Dj" artiste="DJ Set" image="dj.jpg" v-on:click="gotoDj" horaires="23h40 – 00h30"/>
     </div>
 </template>
 <style scoped>

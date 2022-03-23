@@ -7,7 +7,7 @@
         <Presentationg id="A2H_pres" color = "rgb(207,54,48)" link_yt ="https://www.youtube.com/embed/kUhDGwYKCNY" artiste="A2H" image="A2H.jpg" :presentation_text="getTextA2H()" insta="https://www.instagram.com/a2hpalace/" face="https://www.facebook.com/profile.php?id=100050381984536" />
         <Presentationd id="Jyeu_pres" color = "rgb(219,204,181)" link_yt ="https://www.youtube.com/embed/z-DZQ1zVfzY" artiste="J Y E U H A I R" image="Jyeuhair.jpg" :presentation_text="getTextJyeu()" insta="https://www.instagram.com/jyeuhair/" face="https://www.facebook.com/jyeuhairjyeuhair/" />
         <Presentationg id="SonVert_pres" color = "rgb(207,54,48)" link_yt ="https://www.youtube.com/embed/adVwWG9UKGU" artiste="Le Son Vert" image="SonVert.jpg" :presentation_text="getTextSonVert()" insta="https://www.instagram.com/lesonvert_/" face="https://www.facebook.com/lesonvert" />
-        <Presentationd id="Dj_pres" color = "rgb(207,54,48)" link_yt ="https://www.youtube.com/embed/adVwWG9UKGU" artiste="Dj Set" image="SonVert.jpg" :presentation_text="getTextDj()" insta="https://www.instagram.com/spiderzed/" face="https://www.facebook.com/SpiderZED" />
+        <Presentationd id="Dj_pres" color = "rgb(207,54,48)"  artiste="Dj Set" image="dj.jpg" :presentation_text="getTextDj()" />
     </div>
 </template>
 <script>
@@ -40,16 +40,11 @@ export default {
       "Après son premier projet OBZERV. Il revient avec un nouveau projet LAVENTUR. Un gap est franchi. Avec cet opus, il prend le large, l’expérimentation est encore plus poussée et la fusion est maîtrisée. De la pop music, à la world en passant par l’électro, JYEUHAIR laisse libre cours à ses envies pour nous livre un style qui lui est propre !"
     },
     getTextSonVert(){
-      return "Le son vert c'est cool" +
-      "Arrivé à Caen en 2016, Jyeuhair rejoint le collectif La Dose en 2017, avec lequel il sortira un 1er EP solo « ANAMO » et fera ses premiers concerts. <br> <br>" +
-      "Tempérament  calme  et  réservé  au  quotidien,  Jyeuhair  explose  sur  scène  et  laisse  libre  cours à l’énergie qui l’habite. Une nouvelle corde à son arc, vite remarquée par les salles et producteurs de la région (il est sélectionné aux Inouïs du Printemps de Bourges et gagner le Buzz Booster régional), qui lui confie les premières parties de Disiz, Guizmo ou Colombine. <br> <br>"+
-      "Après son premier projet OBZERV. Il revient avec un nouveau projet LAVENTUR. Un gap est franchi. Avec cet opus, il prend le large, l’expérimentation est encore plus poussée et la fusion est maîtrisée. De la pop music, à la world en passant par l’électro, JYEUHAIR laisse libre cours à ses envies pour nous livre un style qui lui est propre !"
+      return "Basé sur un uni­vers lou­foque Le Son Vert assume une direc­tion artis­tique fes­tive abor­dant des thèmes volon­tai­re­ment légers qui plongent les spec­ta­teurs dans une pres­ta­tion théâ­trale ou trois per­son­nages fic­tifs « Jeff, Ton­ton et DJ Brice » au look kitsch se mettent en scène pour pro­mou­voir un style de musique qu’ils appellent « L’EDM Tuning ». <br><br>"+
+      "Le Son Vert est issu de la sélection du Tremplin Phénix Normandie édition 2022."
     },
     getTextDj(){
-      return "Le dj est encore à définir" +
-      "Arrivé à Caen en 2016, Jyeuhair rejoint le collectif La Dose en 2017, avec lequel il sortira un 1er EP solo « ANAMO » et fera ses premiers concerts. <br> <br>" +
-      "Tempérament  calme  et  réservé  au  quotidien,  Jyeuhair  explose  sur  scène  et  laisse  libre  cours à l’énergie qui l’habite. Une nouvelle corde à son arc, vite remarquée par les salles et producteurs de la région (il est sélectionné aux Inouïs du Printemps de Bourges et gagner le Buzz Booster régional), qui lui confie les premières parties de Disiz, Guizmo ou Colombine. <br> <br>"+
-      "Après son premier projet OBZERV. Il revient avec un nouveau projet LAVENTUR. Un gap est franchi. Avec cet opus, il prend le large, l’expérimentation est encore plus poussée et la fusion est maîtrisée. De la pop music, à la world en passant par l’électro, JYEUHAIR laisse libre cours à ses envies pour nous livre un style qui lui est propre !"
+      return "À venir"
     }
 
   }

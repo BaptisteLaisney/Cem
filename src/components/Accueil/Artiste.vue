@@ -1,7 +1,8 @@
 <template>
     <div :id="id" class="Artiste">
         <img class="image-artiste" v-bind:src="require('@/assets/images/artistes/' + image)"/>
-        <h2 class="artiste-nom">{{artiste}}</h2>
+        <h2 class="artiste-nom">{{artiste}} <br> {{horaires}}</h2>
+
     </div>
 </template>
 <style scoped>
@@ -49,7 +50,8 @@ export default {
   props: {
     artiste: String,
     image: String,
-    id: String
+    id: String,
+    horaires: String
   }
 }
 

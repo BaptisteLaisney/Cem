@@ -3,7 +3,7 @@
     <h1>Informations pratiques</h1>
     <Categorie :infos ="getInfos1()" nomCategorie="VENIR AUX ONDÉES"/>
     <Categorie :infos ="getInfos2()" nomCategorie="La Billeterie"/>
-    <Categorie :infos ="getInfos3()" nomCategorie="Diverses informations"/>
+    <Categorie :infos ="getInfos3()" nomCategorie="Informations Diverses"/>
   </div>
 </template>
 <script>

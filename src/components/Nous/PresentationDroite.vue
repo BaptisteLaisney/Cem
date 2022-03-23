@@ -32,7 +32,7 @@ export default {
     position: relative;
 }
 .logo-partenaire{
-    height: 30vh;
+    height: 300px;
     position: relative;
 }
 
