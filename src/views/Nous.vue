@@ -35,7 +35,7 @@ export default {
 
     },
     getContenuEsam(){
-      return "Le Cargö, la scène de musiques actuelles de Caen, d’une capa­ci­té de 1300 places, offre sa scène depuis 2007 à des artistes en deve­nir, indé­pen­dants et nova­teurs qu’ils soient locaux ou inter­na­tio­naux ain­si qu’à des artistes recon­nus du grand public."
+      return "L’asso de l’ESAM est une association d’étudiants comprenants une centaine d’adhérents. L’asso est présente afin de proposer des papiers de qualité à prix coutant aux élèves ainsi que des fournitures d’art. De plus, elle met en place une multitude de petits événements et d’activités comme des vide-greniers, des tournois de ping-pong, des semaines à thème ou encore la distribution de sacs solidaires afin de rendre la scolarité des étudiants plus agréable."
     },
     getContenuMuses(){
       return "Le Cargö, la scène de musiques actuelles de Caen, d’une capa­ci­té de 1300 places, offre sa scène depuis 2007 à des artistes en deve­nir, indé­pen­dants et nova­teurs qu’ils soient locaux ou inter­na­tio­naux ain­si qu’à des artistes recon­nus du grand public."
