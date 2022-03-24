@@ -106,8 +106,9 @@ a,.item-menu{
     visibility: hidden;
     z-index: 20;
     opacity: .99;
-    border-radius: 5px;
-    background: white;
+    
+    border-radius: 0px 0px 5px 5px;
+    background: whitesmoke;
 }
 #dp:hover + #dropdown-content{
     visibility: inherit;

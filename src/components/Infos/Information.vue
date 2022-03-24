@@ -21,7 +21,7 @@ export default {
     margin-left: 3%;
     background-color: rgb(243, 243, 243);
     box-shadow: 5px 5px 5px rgb(177, 177, 177) ;
-    border-radius: 1px;
+    border-radius: 0px 50px 0px 50px    ;
     margin-bottom: 20px;
 }
 .Contenu{
