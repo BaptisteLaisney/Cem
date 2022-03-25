@@ -52,7 +52,7 @@ h2{
 }
 h3{
   font-family:'Bebas Neue', cursive; 
-  color: #ce6029;
+  color: #f1692c;
   font-size: 25px;
   margin-top: 5px;
   margin-bottom: 5px;

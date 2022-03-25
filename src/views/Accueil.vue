@@ -44,7 +44,7 @@ export default {
 </script>
 <style nosope>
 .banniere{
-  border-top: 0.5vh solid #ce6029;
+  border-top: 0.5vh solid #f1692c;
 
 }
 .textPresentation{

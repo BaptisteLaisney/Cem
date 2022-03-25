@@ -57,7 +57,7 @@ export default {
 <style scoped>
 a,.item-menu{
     text-decoration: none;
-    color: #ce6029;
+    color: #f1692c;
     font-family:'Bebas Neue', cursive; 
     font-size: 30px;
 }
@@ -95,7 +95,7 @@ a,.item-menu{
     bottom:0px;
 }
 .button-nav:hover + .barre{
-    background-color: #ce6029 ;
+    background-color: #f1692c ;
 }
 #dropdown-content{
     display: flex;
@@ -133,15 +133,15 @@ a,.item-menu{
     margin-bottom: 0px;
 }
 #nav-billetterie{
-    background-color: #ce6029 ;
+    background-color: #f1692c ;
     color:white;
     margin:10px;
     padding:20px;
     border-radius: 10px;
-    border:#ce6029 solid;
+    border:#f1692c solid;
 }
 #nav-billetterie:hover{
-    color: #ce6029;
+    color: #f1692c;
     background: white;
 
 }
