@@ -1,7 +1,7 @@
 <template>
     <footer>
         <img class ="logoOndees" src="@/assets/images/charte-graphique/logo_blanc.png" alt="Logo Ondées">
-        <div class="text">Suivez nous !</div>
+        <div class="text">Suivez-nous !</div>
         <div class="Conteneur-Reseaux">
             <a href="https://www.facebook.com/lesondees"><img src="@/assets/images/logos/facebook.png" alt="Logo Facebook" class="item-sociaux" abou></a>
             <a href="https://www.instagram.com/lesondees"><img src="@/assets/images/logos/instagram.png" alt="Logo Instagram" class="item-sociaux"></a>
@@ -11,7 +11,7 @@
             <router-link class = "item-info" to="/Partenaires">Partenaires</router-link> | 
             <router-link class = "item-info" to="/Presse">Espace Presse</router-link> | 
             <router-link class = "item-info" to="/Mentions">Mentions légales</router-link> | 
-            <div class="item-info">Contact</div>
+            <a class="item-info" href="https://www.instagram.com/lesondees">Contact</a>
         </div>
     </footer>
 </template>
