@@ -34,9 +34,11 @@ export default {
     Artistes
   },
   mounted () {
-    document.getElementById('Spider').addEventListener('click', () => { document.location.href = 'http://localhost:8080/Programmation' })
-    document.getElementById('A2H').addEventListener('click', () => { document.location.href = 'http://localhost:8080/Programmation' })
-    document.getElementById('Jyeu').addEventListener('click', () => { document.location.href = 'http://localhost:8080/Programmation' })
+    document.getElementById('Spider').addEventListener('click', () => { document.location.href = 'https://lesondees.fr/Programmation' })
+    document.getElementById('A2H').addEventListener('click', () => { document.location.href = 'https://lesondees.fr/Programmation' })
+    document.getElementById('Jyeu').addEventListener('click', () => { document.location.href = 'https://lesondees.fr/Programmation' })
+    document.getElementById('Dj').addEventListener('click', () => { document.location.href = 'https://lesondees.fr/Programmation' })
+    document.getElementById('SonVert').addEventListener('click', () => { document.location.href = 'https://lesondees.fr/Programmation' })
   }
 }
 </script>
