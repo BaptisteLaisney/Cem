@@ -123,7 +123,9 @@ export default {
 }
 .text-presentation{
     margin:30px;
+    font-size : 35px;
     margin-top:0px;
+    font-size: 2vh;
     padding: 20px;
     padding-top:5px ;
     text-align: justify;
@@ -132,6 +134,9 @@ export default {
     color:black;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+}
+.text-presentation >>> mark, mark{
+    background-color:#FF7F50;
 }
 .lien:hover ~ .image-artiste{
     right:50%;
