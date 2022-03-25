@@ -35,7 +35,6 @@ export default {
         "&nbsp &nbsp &nbsp &nbsp - De Cherbourg: 1h10 <br><br>" +
         "VOITURE : Accès par l’autoroute A13 de Rouen et Paris <br><br>" +
         "Accès par l’autoroute A84 de Rennes <br><br>" +
-        "Accès par l’autoroute A84 de Rennes <br><br>" +
         "&nbsp &nbsp &nbsp &nbsp - Parking souterrain Rives de l'Orne <br><br>"+
         "&nbsp &nbsp &nbsp &nbsp - Parking Vendeuvre sud <br><br>"+
         "&nbsp &nbsp &nbsp &nbsp - Parking Est de la Presqu'île  <br><br>"
