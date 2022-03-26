@@ -44,7 +44,7 @@ export default {
     transition : all 0.5s ease;
     flex-wrap: wrap;
     width: 80%;
-    height: 5vh;
+    height: auto;
     overflow: hidden;
     top:0px;
 }
@@ -55,10 +55,7 @@ export default {
     flex-wrap: wrap;
     justify-content: left;
 }
-.Partenaire:hover{
-    height: auto;
-    transition : all 0.5s ease;
-}
+
 .logo{
   height: 12vh;
   margin:2vh;
