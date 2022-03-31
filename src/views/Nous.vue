@@ -35,7 +35,7 @@ export default {
 
     },
     getContenuEsam(){
-      return "L’asso de l’ésam est une association d’étudiants comprenants une centaine d’adhérents. L’asso est présente afin de proposer des papiers de qualité à prix coutant aux élèves ainsi que des fournitures d’art. De plus, elle met en place une multitude de petits événements et d’activités comme des vide-greniers, la mise en avant des travaux des étudiants (avec Impressions Multiples par exemple) ou encore la distribution de sacs solidaires afin de rendre la scolarité des étudiants plus agréable."
+      return "L’asso de l’ésam est une association d’étudiants comprenant une centaine d’adhérents. L’asso est présente afin de proposer des papiers de qualité à prix coutant aux élèves ainsi que des fournitures d’art. De plus, elle met en place une multitude de petits événements et d’activités comme des vide-greniers, la mise en avant des travaux des étudiants (avec Impressions Multiples par exemple) ou encore la distribution de sacs solidaires afin de rendre la scolarité des étudiants plus agréable."
     },
     getContenuMuses(){
       return "L'association The Muses est une association culturelle pour les étudiants en DUT et BUT Techniques de Commercialisation à l'IUT Grand Ouest Normandie. Elle est composée de 4 étudiantes Lou-Ann, Aziliz, Enola et Esther ayant pour rôle de proposer des activités telles que du théâtre, du cinéma, des visites de musées... à un prix accessible à tous. La volonté de The Muses est de faire découvrir un maximum d'activités culturelles présentes au sein de la ville de Caen aux étudiants."
