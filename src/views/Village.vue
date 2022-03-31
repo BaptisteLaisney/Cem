@@ -25,7 +25,7 @@
   width:70%;
 }
 @media screen and (max-width: 1000px) {
-  .textPresentation{
+  .presentation{
     font-size: 15px;
   }
 }

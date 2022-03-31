@@ -31,6 +31,8 @@
                 <div class="barre"></div>
             </div>
         </div>
+        
+
     </div>
 </template>
 <script>
@@ -56,11 +58,13 @@ export default {
               isclicked = false
           }
       });
+
   }
   
 }
 </script>
 <style scoped>
+
 a,.item-menu{
     text-decoration: none;
     color: #f1692c;
@@ -165,9 +169,14 @@ a,.item-menu{
     }
     #dropdown-content{
         height:auto;
+        flex-direction: column-reverse;
     }
     .invisible{
         display: none;
+    }
+    .item-drop-down{
+        font-size: 20px;
+        padding: 5px; 
     }
 
 

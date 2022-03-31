@@ -39,10 +39,13 @@ export default {
     document.getElementById('Jyeu').addEventListener('click', () => { document.location.href = 'https://lesondees.fr/Programmation' })
     document.getElementById('Dj').addEventListener('click', () => { document.location.href = 'https://lesondees.fr/Programmation' })
     document.getElementById('SonVert').addEventListener('click', () => { document.location.href = 'https://lesondees.fr/Programmation' })
+
   }
 }
 </script>
 <style nosope>
+
+
 .banniere{
   border-top: 0.5vh solid #f1692c;
 
