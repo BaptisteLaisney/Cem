@@ -51,7 +51,7 @@ export default {
   text-align: justify;
   padding-right: 5%;
   padding-left: 5%;
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
@@ -63,5 +63,11 @@ export default {
   position: relative;
   width: 90%;
 }
-
+@media screen and (max-width: 1000px) {
+  .textPresentation{
+    font-size: 15px;
+  }
+}
 </style>
+
+

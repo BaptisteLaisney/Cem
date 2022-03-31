@@ -19,9 +19,14 @@
   font-family: 'Montserrat', sans-serif;
   color:black;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 20px;
 }
 .map{
   width:70%;
+}
+@media screen and (max-width: 1000px) {
+  .textPresentation{
+    font-size: 15px;
+  }
 }
 </style>

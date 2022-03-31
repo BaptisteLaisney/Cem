@@ -23,7 +23,7 @@ export default {
         { message: 'Institutionnels/CVEC.jpeg' },
         { message: 'Institutionnels/RégionNormandie.png' },
         { message: 'Institutionnels/AtoutNormandie.jpeg' },
-        { message: 'Institutionnels/DepartementCalvados.png' },
+        // { message: 'Institutionnels/DepartementCalvados.png' },
         { message: 'Institutionnels/FAGE.png' }
       ]
     },
