@@ -50,6 +50,12 @@ export default {
          
           
       })
+      document.addEventListener('click', function(event) {
+          if (!event.target.matches('.button-nav')) {
+              document.getElementById("dropdown-content").style.visibility = "hidden"
+              isclicked = false
+          }
+      });
   }
   
 }
