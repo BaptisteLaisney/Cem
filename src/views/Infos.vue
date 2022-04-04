@@ -79,7 +79,7 @@ export default {
         },
         {
           Titre:"BÉNÉVOLAT",
-          Contenu: "Un appel à bénévole sera prochainement effectué."
+          Contenu: '<a target="_blank" href="https://forms.gle/sH4T9BKkiDqvc5Xg6">Devenir Bénévole pour l atelier enfants</a>'
         },
         {
           Titre: "ACCUEIL DES PERSONNES À MOBILITÉ RÉDUITES",
