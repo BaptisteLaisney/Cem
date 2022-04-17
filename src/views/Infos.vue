@@ -2,7 +2,7 @@
   <div class="Infos">
     <h1>Informations pratiques</h1>
     <Categorie :infos ="getInfos1()" nomCategorie="VENIR AUX ONDÉES"/>
-    <Categorie :infos ="getInfos2()" nomCategorie="La Billeterie"/>
+    <Categorie :infos ="getInfos2()" nomCategorie="La Billetterie"/>
     <Categorie :infos ="getInfos3()" nomCategorie="Informations Diverses"/>
   </div>
 </template>
@@ -79,7 +79,9 @@ export default {
         },
         {
           Titre:"BÉNÉVOLAT",
-          Contenu: '<a target="_blank" href="https://forms.gle/sH4T9BKkiDqvc5Xg6">Devenir Bénévole pour l atelier enfants</a>'
+          Contenu: '<a target="_blank" href="https://forms.gle/wjkfieB383Sm4MD96">Devenir Bénévole pour l organisation générale</a><br>' +
+          '<a target="_blank" href="https://forms.gle/sH4T9BKkiDqvc5Xg6">Devenir Bénévole pour l atelier enfants</a>'
+            
         },
         {
           Titre: "ACCUEIL DES PERSONNES À MOBILITÉ RÉDUITES",

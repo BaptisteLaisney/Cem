@@ -21,7 +21,7 @@ export default {
         Partie
     }
 }
-</script>
+</script>   
 <style scoped>
 .Mentions{
     width: 90%;
