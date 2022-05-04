@@ -3,6 +3,7 @@
     <h1>Nos partenaires</h1>
     <Partenaire class="Partenaire" nom="INSTITUTIONNELS" :listepartenaires="getPublic()"/>
     <Partenaire class="Partenaire" nom="MAJEURS" :listepartenaires="getPrives()"/>
+    <Partenaire class="Partenaire" nom="MEDIAS" :listepartenaires="getMedias()" />
     <Partenaire class="Partenaire" nom="FRIENDS" :listepartenaires="getFriends()" />
   </div>
 </template>
@@ -14,6 +15,11 @@ export default {
     Partenaire
   },
   methods: {
+    getMedias : function(){
+      return [
+        { message: 'Medias/HelloCaen.png' }
+      ]
+    },
     getPublic: function () {
       return [
         { message: 'Institutionnels/UniCaen.png' },
@@ -22,7 +28,7 @@ export default {
         { message: 'Institutionnels/CROUS.jpeg' },
         { message: 'Institutionnels/CVEC.jpeg' },
         { message: 'Institutionnels/RégionNormandie.png' },
-        { message: 'Institutionnels/AtoutNormandie.jpeg' },
+        { message: 'Institutionnels/AtoutNormandie.jpg' },
         // { message: 'Institutionnels/DepartementCalvados.png' },
         { message: 'Institutionnels/FAGE.png' }
       ]
