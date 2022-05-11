@@ -2,7 +2,7 @@
   <div class="Partenaires">
     <h1>Nos partenaires</h1>
     <Partenaire class="Partenaire" nom="INSTITUTIONNELS" :listepartenaires="getPublic()"/>
-    <Partenaire class="Partenaire" nom="MAJEURS" :listepartenaires="getPrives()"/>
+    <Partenaire class="Partenaire" nom="SPONSORS" :listepartenaires="getPrives()"/>
     <Partenaire class="Partenaire" nom="MEDIAS" :listepartenaires="getMedias()" />
     <Partenaire class="Partenaire" nom="FRIENDS" :listepartenaires="getFriends()" />
   </div>
@@ -17,7 +17,8 @@ export default {
   methods: {
     getMedias : function(){
       return [
-        { message: 'Medias/HelloCaen.png' }
+        { message: 'Medias/HelloCaen.png' },
+        { message: 'Medias/Phenix.png' }
       ]
     },
     getPublic: function () {
@@ -42,6 +43,7 @@ export default {
     getFriends: function () {
       return [
         { message: 'Friends/Cargo.jpg' }
+        
       ]
     }
   }
