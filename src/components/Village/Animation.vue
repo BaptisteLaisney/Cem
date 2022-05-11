@@ -31,4 +31,9 @@ h2{
     margin:auto;
     text-align: justify;
 }
+@media screen and (max-width: 1000px) {
+  .presentation{
+    font-size: 15px;
+  }
+}
 </style>

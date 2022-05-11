@@ -2,7 +2,7 @@
   <div class="Accueil">
     <Banniere class="banniere"/>
     <br>
-    <iframe width="930" height="523" src="https://www.youtube.com/embed/DQuxEAgcC_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="video" src="https://www.youtube.com/embed/DQuxEAgcC_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <br>
     <h1><br>Qu'est-ce que les Ondées ?</h1>
     <div class="textPresentation">
@@ -68,9 +68,17 @@ export default {
   position: relative;
   width: 90%;
 }
+.video{
+  width: 90%;
+  height: 720px;
+}
 @media screen and (max-width: 1000px) {
   .textPresentation{
     font-size: 15px;
+  }
+  .video{
+    width: 90%;
+    height: 300px;
   }
 }
 </style>
