@@ -28,8 +28,10 @@ export default {
         { message: 'Institutionnels/IUT.png' },
         { message: 'Institutionnels/CROUS.jpeg' },
         { message: 'Institutionnels/CVEC.jpeg' },
+        { message: 'Institutionnels/Caen.jpeg.jpg' },
         { message: 'Institutionnels/RégionNormandie.png' },
         { message: 'Institutionnels/AtoutNormandie.jpg' },
+        
         // { message: 'Institutionnels/DepartementCalvados.png' },
         { message: 'Institutionnels/FAGE.png' }
       ]
