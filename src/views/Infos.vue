@@ -67,7 +67,7 @@ export default {
       },
       {
         Titre: "Pass culture",
-        Contenu: "Bientôt disponible. Plus d’informations à venir."
+        Contenu: "Reservations disponible sur l'application Pass Culture"
       }
       ]
     },
@@ -79,9 +79,7 @@ export default {
         },
         {
           Titre:"BÉNÉVOLAT",
-          Contenu: '<a target="_blank" href="https://forms.gle/wjkfieB383Sm4MD96">Devenir Bénévole pour l organisation générale</a><br>' +
-          '<a target="_blank" href="https://forms.gle/sH4T9BKkiDqvc5Xg6">Devenir Bénévole pour l atelier enfants</a>'
-            
+          Contenu: "L'appel à bénévoles est terminé. Merci à tous ceux qui se sont mobilisés"
         },
         {
           Titre: "ACCUEIL DES PERSONNES À MOBILITÉ RÉDUITES",
