@@ -32,7 +32,7 @@ export default {
         { message: 'Institutionnels/RégionNormandie.png' },
         { message: 'Institutionnels/AtoutNormandie.jpg' },
         
-        // { message: 'Institutionnels/DepartementCalvados.png' },
+        { message: 'Institutionnels/DepartementCalvados.png' },
         { message: 'Institutionnels/FAGE.png' }
       ]
     },

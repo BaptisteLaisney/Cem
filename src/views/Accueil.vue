@@ -21,7 +21,7 @@
 
     <h1>Un Village culturel</h1>
     <div class="textPresentation">
-      Le village culturel des Ondées est à retrouver dès 14H, le samedi 4 juin 2022, sur l'esplanade du Cargö.Evénement responsable, Les Ondées invitent le public à découvrir son village culturel association musiques, vie étudiante et développement durable. Dans une ambiance conviviale, les associations étudiantes se mobilisent pour proposer des animations tout public, une exposition, un espace détente et bien plus encore (programme bientôt disponible). 
+      Le village culturel des Ondées est à retrouver dès 14H, le samedi 4 juin 2022, sur l'esplanade du Cargö.Evénement responsable, Les Ondées invitent le public à découvrir son village culturel association musiques, vie étudiante et développement durable. Dans une ambiance conviviale, les associations étudiantes se mobilisent pour proposer des animations tout public, une exposition, un espace détente et bien plus encore. Vous pouvez retrouver ces informations dans l'onglet village culturel. 
     </div>
   </div>
 </template>
