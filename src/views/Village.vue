@@ -45,7 +45,7 @@ export default {
   margin:auto;
   text-align: justify;
   margin-top:60px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   color:black;
   font-weight: bold;
   font-size: 20px;

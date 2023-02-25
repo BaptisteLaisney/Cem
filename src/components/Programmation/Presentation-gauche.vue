@@ -118,7 +118,7 @@ export default {
 }
 .nom-artiste{
     font-size: 60px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Space Grotesk', sans-serif;
     color:#284e99;
 }
 .text-presentation{
@@ -132,7 +132,7 @@ export default {
     background-color: white;
     border-radius: 5px;
     color:black;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-weight: bold;
 }
 .text-presentation >>> mark, mark{

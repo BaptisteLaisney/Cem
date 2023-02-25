@@ -22,7 +22,7 @@ export default {
 <style scoped>
 .Text{
     height: auto;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-weight: bold;
     font-size: 2vh;
     text-align: justify;

@@ -68,10 +68,11 @@ export default {
 </script>
 <style>
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400&display=swap');
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -84,21 +85,21 @@ body{
   min-height: 100vh;
 }
 h1{
-  font-family:'Bebas Neue', cursive; 
+  font-family: 'Space Grotesk', sans-serif; 
   color: #284e99;
   font-size: 50px;
   margin:auto;
   margin-bottom:40px ;
 }
 h2{
-  font-family:'Bebas Neue', cursive; 
+  font-family: 'Space Grotesk', sans-serif;
   color: #284e99;
   font-size: 35px;
   margin-top: 10px;
    margin-bottom: 10px;
 }
 h3{
-  font-family:'Bebas Neue', cursive; 
+  font-family: 'Space Grotesk', sans-serif;
   color: #f1692c;
   font-size: 25px;
   margin-top: 5px;
@@ -113,7 +114,7 @@ h3{
   padding: 10px;
   text-align: center;
   font-size: 14px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-weight: 300;
   color: #000;
   z-index: 9999;

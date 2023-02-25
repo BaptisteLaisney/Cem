@@ -27,7 +27,7 @@ export default {
 .Contenu{
     padding-right: 3%;
     padding-left:3%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-weight: bold;
     color:black;
     font-size: 18px;

@@ -36,11 +36,7 @@ export default {
     Artistes
   },
   mounted () {
-    document.getElementById('Spider').addEventListener('click', () => { document.location.href = 'https://lesondees.fr/Programmation' })
-    document.getElementById('A2H').addEventListener('click', () => { document.location.href = 'https://lesondees.fr/Programmation' })
-    document.getElementById('Jyeu').addEventListener('click', () => { document.location.href = 'https://lesondees.fr/Programmation' })
-    document.getElementById('Dj').addEventListener('click', () => { document.location.href = 'https://lesondees.fr/Programmation' })
-    document.getElementById('SonVert').addEventListener('click', () => { document.location.href = 'https://lesondees.fr/Programmation' })
+ 
 
   }
 }
@@ -57,7 +53,7 @@ export default {
   padding-right: 5%;
   padding-left: 5%;
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-weight: bold;
 }
 .Artistes{

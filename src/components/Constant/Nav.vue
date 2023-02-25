@@ -68,7 +68,7 @@ export default {
 a,.item-menu{
     text-decoration: none;
     color: #f1692c;
-    font-family:'Bebas Neue', cursive; 
+    font-family: 'Space Grotesk', sans-serif;
     font-size: 30px;
 }
 .menu{

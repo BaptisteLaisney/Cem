@@ -34,7 +34,7 @@ export default {
  
   text-align: justify;
   padding-left:20px ;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   color:black;
   font-weight: bold;
   font-size: 20px;

@@ -3,11 +3,12 @@
         <h1>Programmation</h1>
         <Artistes/>
         <br><br>
-        <Presentationd id="Spider_pres" color = "rgb(162,163,185)" link_yt ="https://www.youtube.com/embed/scXngX8uFYs" artiste="Spider Zed" image="spider_zed.jpg" :presentation_text="getTextSpider()" insta="https://www.instagram.com/spiderzed/" face="https://www.facebook.com/SpiderZED" />
-        <Presentationg id="A2H_pres" color = "rgb(207,54,48)" link_yt ="https://www.youtube.com/embed/kUhDGwYKCNY" artiste="A2H" image="A2H.jpg" :presentation_text="getTextA2H()" insta="https://www.instagram.com/a2hpalace/" face="https://www.facebook.com/profile.php?id=100050381984536" />
-        <Presentationd id="Jyeu_pres" color = "rgb(219,204,181)" link_yt ="https://www.youtube.com/embed/z-DZQ1zVfzY" artiste="J Y E U H A I R" image="Jyeuhair.jpg" :presentation_text="getTextJyeu()" insta="https://www.instagram.com/jyeuhair/" face="https://www.facebook.com/jyeuhairjyeuhair/" />
-        <Presentationg id="SonVert_pres" color = "rgb(207,54,48)" link_yt ="https://www.youtube.com/embed/adVwWG9UKGU" artiste="Le Son Vert" image="SonVert.jpg" :presentation_text="getTextSonVert()" insta="https://www.instagram.com/lesonvert_/" face="https://www.facebook.com/lesonvert" />
-        <Presentationd id="Dj_pres" color = "rgb(207,54,48)"  artiste="SmallTunez" image="smalltunez.jpg" :presentation_text="getTextSmallTunez()" insta="https://www.instagram.com/iamsmalltunez222/" />
+        <Presentationd id="BBJacques_pres" color = "rgb(162,163,185)" link_yt ="https://www.youtube.com/embed/iIHdTMHWAic" artiste="B.B. Jacques" image="BBJacques.png" :presentation_text="getTextBBJ()" insta="https://www.instagram.com/spiderzed/" face="https://www.facebook.com/SpiderZED" />
+        <Presentationg id="BRO_pres" color = "rgb(207,54,48)" link_yt ="https://www.youtube.com/embed/VV9qyx_v9kc" artiste="BRÖ" image="Bro.jpg" :presentation_text="getTextBro()" insta="https://www.instagram.com/a2hpalace/" face="https://www.facebook.com/profile.php?id=100050381984536" />
+        <Presentationd id="Nelick_pres" color = "rgb(207,54,48)" link_yt ="https://www.youtube.com/embed/Bb_L1TbRRp4" artiste="nelick" image="nelick.jpg" :presentation_text="getTextNelick()" insta="https://www.instagram.com/lesonvert_/" face="https://www.facebook.com/lesonvert" />
+        <Presentationg id="MADDY_pres" color = "rgb(219,204,181)" link_yt ="https://www.youtube.com/embed/8piuG5024Vg" artiste="MADDY STREET" image="maddy.jpg" :presentation_text="getTextMaddy()" insta="https://www.instagram.com/jyeuhair/" face="https://www.facebook.com/jyeuhairjyeuhair/" />
+        
+       
     </div>
 </template>
 <script>
@@ -22,30 +23,20 @@ export default {
     Presentationg
   },
   methods: {
-    getTextSpider(){
-      return "Après avoir fait ses armes au sein du High Five Crew, Spider ZED sort 4 EP entre 2017 et 2019 comptabilisant plus de  45 millions de streams sur Spotify  <br> <br>" +
-      "Auteur-compositeur, il confirme l'engouement autour de lui avec la réussite de son premier album  Jeune intermittent  sorti à la fin de l'année 2020. <br> <br>" + 
-      "Le projet de 14 titres inclut notamment des collaborations avec le YouTubeur québécois  Thomas Gauthier  ainsi que les rappeurs  Bigflo & Oli. <br> <br>" + 
-      "Spider ZED se fait l’artisan d’une poésie du quotidien tristement amusante  et se refuse à toute tentative d’embellir la réalité. Ses morceaux, parfois loufoques d’un premier abord, révèlent souvent un  spleen véritable et traduisent dans la plupart des cas une volonté d’aller à contre-courant des codes traditionnellement véhiculés par l’industrie du divertissement."
+    getTextBBJ(){
+      return "Artiste habité, inconventionnel et hyperproductif, B.B. Jacques est la révélation rap de 2022. Une année qui l’a vu exploser grâce à l’album Poésie d’une Pulsion et à son passage sur Netflix. Pour fêter cette montée éclair, le rappeur parisien fêtera le 3 mars 2023 son nouveau statut, avec sa première grande date dans la capitale, à la Cigale et en tournée dans toute la France."
     },
-    getTextA2H(){
-      return "Après deux disques au fort succès d’estime, \"Libre\" (2016) et \"L’Amour\" (2018), A2H offre avec \"Rédemption\" en 2020 un album riche qui réunit autour d'une proposition musicale ambitieuse un large public. <br><br>"+
-      "En 2022, A2H continue d’affirmer sa place si singulière sur la scène française portée par un talent protéiforme, délivrant une musique qui touche l’excellence et un parcours sans faute. A2H revient ainsi auprès du public avec un double album \"Une rose et une lame\", synthétisant ses deux facettes, \"Une rose\" étant le volet plus chanté et \"Une lame\" étant le volet rap. <br><br>"+
-      "Avec \"Une rose et une lame\", A2H amène sa musique sur un nouveau niveau de popularité et de compétition artistique. A2H réalise un déroulé parfait sur les deux registres, chansons et rap. Bête de scène, musicien aguerri, réussissant à fédérer continuellement un nouveau public, miroir d’un auditoire mixte qui se retrouve dans ses thématiques intimes abordées, A2H a les épaules suffisamment larges pour porter un vent de renouveau sur la scène musicale française."
+    getTextBro(){
+      return "Qu’il s’agisse de son discours ou de sa musicalité, Brö est une artiste de son temps, avec comme maître-mot la fusion. Issue d’un mélange unique, à la fois Algérienne, Italienne, Normande, Suisse, les étiquettes n’ont plus grand sens à ses yeux. L’humain avant tout, tel est son crédo, qui correspond parfaitement à notre époque marquée par la fluidité.<br><br>" +
+      "Avec ses musiciens, Elie et Jules, tous deux multi-instrumentistes dotés d’une riche culture musicale, Brö explore tous les genres sans se poser de questions. Pour eux, la musique est un art et l’aimer c’est ne pas la cloisonner. Ils ont côtoyé, écouté tellement d’artistes, que leurs productions portent les traits de la fusion des styles"},
+    getTextMaddy(){
+      return "Maddy Street c'est la.e plus britannique des français.e.s. Du haut de ses 24 ans, la.e jeune chantereuse et vidéaste vous entraîne dans un univers infinement Queer et Pop. Entre légèreté pétillante et gravité poétique, ses sons mélangent le français et l'anglais, le romantique et l'engagé, le sombre et le coloré. "
     },
-    getTextJyeu(){
-      return "Tête bien faite et tête bien pleine, c’est peu de dire que Jyeuhair possède les deux et sait en faire une force. Productions et textes soignés, clips très personnels,  goût prononcé pour l’expérimentation, l’artiste de 23 ans insuffle à sa musique sa sensibilité en la nourrissant de toutes les influences de son monde intérieur.<br>" +
-      "Arrivé à Caen en 2016, Jyeuhair rejoint le collectif La Dose en 2017, avec lequel il sortira un 1er EP solo « ANAMO » et fera ses premiers concerts. <br> <br>" +
-      "Tempérament calme et réservé au quotidien, Jyeuhair explose sur scène et laisse libre cours à l’énergie qui l’habite. Une nouvelle corde à son arc, vite remarquée par les salles et producteurs de la région (il est sélectionné aux Inouïs du Printemps de Bourges et gagne le Buzz Booster régional), qui lui confie les premières parties de Disiz, Guizmo ou Colombine. <br> <br>"+
-      "Après son premier projet OBZERV. Il revient avec un nouveau projet LAVENTUR. Un gap est franchi. Avec cet opus, il prend le large, l’expérimentation est encore plus poussée et la fusion est maîtrisée. De la pop music, à la world en passant par l’électro, JYEUHAIR laisse libre cours à ses envies pour nous livre un style qui lui est propre !"
+    getTextNelick(){
+      return "À seulement 25 ans, nelick est déjà identifié dans le rap français depuis de nombreuses années. Après des débuts à freestyler seul dans son coin, un groupe éphémère avec le rappeur LordEsperanza, plusieurs mixtapes et EP en solo qui lui valent une communauté de fans soudés (les «kiwis»); le jeune artiste de Champigny-sur-Marne n’est clairement plus un rookie.<br><br>" + 
+      "<br> Pour le cinquième projet de sa carrière, nelick se rapproche de cet artiste total qu’il veut devenir. Une ambition portée par le désir de créer son propre espace musical, son petit royaume nostalgique et coloré - où son groove toujours plus assumé puise à la fois dans le rap, le R&B et l’indie - pop - loin des ten-dances actuelles du rap français. Ce nouvel EP - le premier réalisé avec la complicité du label indépendant Entreprise (Fishbach,Bagarre,Jäde...) - marque un changement de catégorie."
     },
-    getTextSonVert(){
-      return "Basé sur un univers loufoque, Le Son Vert assume une direction artistique festive abordant des thèmes volontairement légers qui plongent les spectateurs dans une prestation théâtrale ou trois personnages fictifs « Jeff, Tonton et DJ Brice » au look kitsch se mettent en scène pour promouvoir un style de musique qu’ils appellent « L’EDM Tuning ». <br><br>"+
-      "Le Son Vert est issu de la sélection du Tremplin Phénix Normandie édition 2022."
-    },
-    getTextSmallTunez(){
-      return "Dj compositeur, rappeur, musicien, l'artiste polyvalent SmallTunez, talent propulsé par Label Seven, est habitué à se produire dans les soirées aussi bien Caennaises que parisiennes."
-    }
+
 
   }
 }

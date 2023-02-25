@@ -1,10 +1,11 @@
 <template>
     <div class="Artistes">
-        <Artiste id="Spider" artiste="Spider Zed" image="spider_zed.jpg" v-on:click="gotospider" horaires="22h30 – 23h30"/>
-        <Artiste id="A2H" artiste="A2H" image="A2H.jpg" v-on:click="gotoA2H" horaires="20h55 – 22h10"/>
-        <Artiste id="Jyeu" artiste="J Y E U H A I R" image="Jyeuhair.jpg" v-on:click="gotoJyeu" horaires="19h50 – 20h35"/>
-        <Artiste id="SonVert" artiste="Le Son Vert" image="SonVert.jpg" v-on:click="gotoSonVert" horaires="19h00 – 19h30"/>
-        <Artiste id="Dj" artiste="SMALLTUNEZ" image="smalltunez.jpg" v-on:click="gotoDj" horaires="23h40 – 00h30"/>
+        <Artiste id="BBJacques" artiste="B.B. Jacques" image="BBJacques.png" v-on:click="gotoBB" horaires="22h30 – 23h30"/>
+        <Artiste id="BRO" artiste="BRÖ" image="Bro.jpg" v-on:click="gotoBRO" horaires="20h55 – 22h10"/>
+        <Artiste id="nelick" artiste="nelick" image="nelick.jpg" v-on:click="gotonelick" horaires="19h00 – 19h30"/>
+        <Artiste id="Maddy" artiste="MADDYT STREET" image="maddy.jpg" v-on:click="gotoMADDY" horaires="19h50 – 20h35"/>
+   
+
     </div>
 </template>
 <style scoped>
@@ -25,27 +26,51 @@ export default {
     Artiste
   },
   methods: {
-    gotospider: function () {
-      document.getElementById('Spider_pres').scrollIntoView({ block: 'end', behavior: 'smooth' })
-      this.s.update(0)
+    gotoBB: function () {
+      let pres = document.getElementById('BBJacques_pres')
+      if(pres != null){
+        pres.scrollIntoView({ block: 'end', behavior: 'smooth' })
+        this.s.update(0)
+      }else{
+        document.location.href = 'https://lesondees.fr/Programmation'
+      }
+    
+
 
     },
-    gotoA2H: function () {
-      document.getElementById('A2H_pres').scrollIntoView({ block: 'end', behavior: 'smooth' })
-      this.s.update(1)
+    gotoBRO: function () {
+      let pres =document.getElementById('BRO_pres')
+      if(pres != null){
+        pres.scrollIntoView({ block: 'end', behavior: 'smooth' })
+        this.s.update(1)
+      }else{
+        document.location.href = 'https://lesondees.fr/Programmation'
+      }
+  
+
     },
-    gotoJyeu: function () {
-      document.getElementById('Jyeu_pres').scrollIntoView({ block: 'end', behavior: 'smooth' })
-      this.s.update(2)
+    gotoMADDY: function () {
+      let pres = document.getElementById('MADDY_pres')
+      if(pres != null){
+        pres.scrollIntoView({ block: 'end', behavior: 'smooth' })
+        this.s.update(3)
+      }else{
+        document.location.href = 'https://lesondees.fr/Programmation'
+      }
+
     },
-    gotoSonVert: function () {
-      document.getElementById('SonVert_pres').scrollIntoView({ block: 'end', behavior: 'smooth' })
-      this.s.update(3)
+    gotonelick: function () {
+      let pres = document.getElementById('Nelick_pres')
+      if(pres != null){
+        pres.scrollIntoView({ block: 'end', behavior: 'smooth' })
+        this.s.update(2)
+      }else{
+        document.location.href = 'https://lesondees.fr/Programmation'
+      }
+
+   
     },
-    gotoDj: function () {
-      document.getElementById('Dj_pres').scrollIntoView({ block: 'end', behavior: 'smooth' })
-      this.s.update(4)
-    }
+
 
   },
   mounted () {
@@ -55,7 +80,7 @@ export default {
       scrollTimeout
       constructor () {
         this.current = 0
-        this.liste = ['Spider_pres', 'A2H_pres', 'Jyeu_pres','SonVert_pres','Dj_pres']
+        this.liste = ['BBJacques_pres', 'BRO_pres', 'MADDY_pres','Nelick_pres']
         this.out= true
 
         

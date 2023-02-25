@@ -27,7 +27,7 @@ h3{
 .content{
     font-size: 25px;
     text-align: justify;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     font-weight: bold;
 }
 </style>
