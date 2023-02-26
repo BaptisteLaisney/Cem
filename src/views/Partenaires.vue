@@ -2,8 +2,8 @@
   <div class="Partenaires">
     <h1>Nos partenaires</h1>
     <Partenaire class="Partenaire" nom="INSTITUTIONNELS" :listepartenaires="getPublic()"/>
-    <Partenaire class="Partenaire" nom="SPONSORS" :listepartenaires="getPrives()"/>
-    <Partenaire class="Partenaire" nom="MEDIAS" :listepartenaires="getMedias()" />
+    <!-- <Partenaire class="Partenaire" nom="SPONSORS" :listepartenaires="getPrives()"/> -->
+    <!-- <Partenaire class="Partenaire" nom="MEDIAS" :listepartenaires="getMedias()" /> -->
     <Partenaire class="Partenaire" nom="FRIENDS" :listepartenaires="getFriends()" />
   </div>
 </template>
@@ -23,17 +23,14 @@ export default {
     },
     getPublic: function () {
       return [
-        { message: 'Institutionnels/UniCaen.png' },
-        { message: 'Institutionnels/InitiativeEtu.png' },
-        { message: 'Institutionnels/IUT.png' },
-        { message: 'Institutionnels/CROUS.jpeg' },
-        { message: 'Institutionnels/CVEC.jpeg' },
-        { message: 'Institutionnels/Caen.jpeg' },
-        { message: 'Institutionnels/RégionNormandie.png' },
-        { message: 'Institutionnels/AtoutNormandie.jpg' },
-        
-        { message: 'Institutionnels/DepartementCalvados.png' },
-        { message: 'Institutionnels/FAGE.png' }
+        { message: 'Institutionnels/UniCaen.png', link: 'https://www.unicaen.fr' },
+        { message: 'Institutionnels/CROUS.jpeg',  link: 'https://www.crous-normandie.fr' },
+        { message: 'Institutionnels/CVEC.jpeg', link: 'https://www.unicaen.fr/vie-de-campus/vie-etudiante/usages-de-la-cvec/' },
+        { message: 'Institutionnels/IUT.png', link: 'http://iut-grand-ouest-normandie.unicaen.fr'},
+        { message: 'Institutionnels/RégionNormandie.png',link: 'https://www.normandie.fr' },
+        { message: 'Institutionnels/AtoutNormandie.jpg',link: 'https://atouts.normandie.fr/beneficiaires/Views/Accueil.aspx' },
+        { message: 'Institutionnels/Caen.jpeg',link: 'https://caen.fr' },
+       
       ]
     },
     getPrives: function () {
@@ -44,7 +41,10 @@ export default {
     },
     getFriends: function () {
       return [
-        { message: 'Friends/Cargo.jpg' }
+        { message: 'Friends/Cargo.jpg' ,link: 'https://lecargo.fr'},
+        { message: 'Friends/Actif.png' ,link: 'https://www.instagram.com/bde_campus3/'},
+        { message: 'Friends/ESAM.png',link: 'https://www.instagram.com/esamasso/' },
+        { message: 'Friends/FCBN.png',link: 'https://www.instagram.com/la_fcbn/' },
         
       ]
     }

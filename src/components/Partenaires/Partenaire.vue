@@ -2,7 +2,10 @@
     <div class="Partenaire" v-on:click="descend">
         <div class="Categorie">{{nom}}</div>
         <div class="logos">
-          <img class="logo" v-for="item in getdata()" :key="item.message" :src="require('@/assets/images/Partenaires/' + item.message)" :alt="item.message">
+          <a  v-for="item in getdata()" :key="item" :href="item.link">
+            <img class="logo" :src="require('@/assets/images/Partenaires/' + item.message)" :alt="item.message">
+          </a>
+       
         </div>
     </div>
 </template>
