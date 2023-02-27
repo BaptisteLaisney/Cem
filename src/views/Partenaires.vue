@@ -3,7 +3,7 @@
     <h1>Nos partenaires</h1>
     <Partenaire class="Partenaire" nom="INSTITUTIONNELS" :listepartenaires="getPublic()"/>
     <!-- <Partenaire class="Partenaire" nom="SPONSORS" :listepartenaires="getPrives()"/> -->
-    <!-- <Partenaire class="Partenaire" nom="MEDIAS" :listepartenaires="getMedias()" /> -->
+    <Partenaire class="Partenaire" nom="PARTENAIRES MEDIAS" :listepartenaires="getMedias()" />
     <Partenaire class="Partenaire" nom="FRIENDS" :listepartenaires="getFriends()" />
   </div>
 </template>
@@ -17,8 +17,8 @@ export default {
   methods: {
     getMedias : function(){
       return [
-        { message: 'Medias/HelloCaen.png' },
-        { message: 'Medias/Phenix.png' }
+        { message: 'Medias/Bakuss.png',  link: 'https://www.bakuss.fr' },
+        
       ]
     },
     getPublic: function () {
