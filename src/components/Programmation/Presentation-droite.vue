@@ -114,8 +114,8 @@ export default {
 }
 .nom-artiste{
     font-size: 60px;
-    font-family: 'Space Grotesk', sans-serif;
-    color:#284e99;
+    font-family: 'SharpGrotesk-Bold20';
+    color:#3b1c7a ;
 }
 .text-presentation{
     margin:30px;
@@ -128,8 +128,8 @@ export default {
     background-color: white;
     border-radius: 5px;
     color:black;
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: bold;
+    font-family: 'SharpGrotesk-Bold20';
+
 }
 
 .survole:hover + .image-artiste{

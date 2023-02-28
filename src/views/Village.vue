@@ -47,9 +47,9 @@ export default {
   margin:auto;
   text-align: justify;
   margin-top:60px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'SharpGrotesk-Bold20';
   color:black;
-  font-weight: bold;
+  
   font-size: 20px;
 }
 .map{

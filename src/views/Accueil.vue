@@ -61,7 +61,7 @@ export default {
 
 
 .banniere{
-  border-top: 0.5vh solid #f1692c;
+  border-top: 0.5vh solid #e65f20;
 
 }
 .textPresentation{
@@ -69,8 +69,8 @@ export default {
   padding-right: 5%;
   padding-left: 5%;
   font-size: 20px;
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: bold;
+  font-family: 'SharpGrotesk-Bold20', sans-serif;
+
 }
 .Artistes{
   margin-bottom: 50px;

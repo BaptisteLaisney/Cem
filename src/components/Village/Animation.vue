@@ -34,9 +34,9 @@ export default {
  
   text-align: justify;
   padding-left:20px ;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'SharpGrotesk-Bold20';
   color:black;
-  font-weight: bold;
+
   font-size: 20px;
 }
 .presentation{

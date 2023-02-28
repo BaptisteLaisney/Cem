@@ -33,8 +33,8 @@
 <style scoped>
 .button{
     text-decoration: none;
-    color:#284e99;
-    border : 3px solid #284e99;;
+    color:#3b1c7a ;
+    border : 3px solid #3b1c7a ;;
     padding : 10px;
     margin: 50px;
     border-radius: 7px;
@@ -42,7 +42,7 @@
 
 }
 .button:hover{
-    background-color: #284e99;
+    background-color: #3b1c7a ;
     transition : .2s ease-out;
     color: white;
 }

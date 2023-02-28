@@ -16,6 +16,7 @@
 <script>
 import Navigation from '@/components/Constant/Nav.vue'
 import Footer from '@/components/Constant/Footer.vue'
+
 export default {
   name: 'Menu',
   components: {
@@ -69,10 +70,21 @@ export default {
 <style>
 
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400&display=swap');
+
+
+@font-face {
+    font-family: "SharpGrotesk-SemiBold25";
+
+    src: url("/fonts/SharpGrotesk-SemiBold25.otf") format("opentype");
+}
+@font-face {
+    font-family: "SharpGrotesk-Bold20";
+
+    src: url("/fonts/SharpGrotesk-Bold20.otf") format("opentype");
+}
 
 #app {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'SharpGrotesk-Bold20';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -85,22 +97,22 @@ body{
   min-height: 100vh;
 }
 h1{
-  font-family: 'Space Grotesk', sans-serif; 
-  color: #284e99;
+  font-family: 'SharpGrotesk-SemiBold25'; 
+  color: #3b1c7a ;
   font-size: 50px;
   margin:auto;
   margin-bottom:40px ;
 }
 h2{
-  font-family: 'Space Grotesk', sans-serif;
-  color: #284e99;
+  font-family: "SharpGrotesk-SemiBold25";
+  color: #3b1c7a ;
   font-size: 35px;
   margin-top: 10px;
    margin-bottom: 10px;
 }
 h3{
-  font-family: 'Space Grotesk', sans-serif;
-  color: #f1692c;
+  font-family: "SharpGrotesk-SemiBold25";
+  color: #e65f20;
   font-size: 25px;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -114,13 +126,13 @@ h3{
   padding: 10px;
   text-align: center;
   font-size: 14px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'SharpGrotesk-Bold20';
   font-weight: 300;
   color: #000;
   z-index: 9999;
 }
 #cookieBannerAccept, #cookieBannerRefuse {
-  border:#f1692c solid 1px;
+  border:#e65f20 solid 1px;
   margin:5px;
   cursor: pointer;
   border-radius: 5px;

@@ -49,7 +49,7 @@ export default {
     getInfos2(){
       return [{
         Titre : "Où trouver la billetterie ?",
-        Contenu : '<a style="text-decoration:none; color:#284e99;" href="/Billetterie">Lien vers la Billetterie</a>'
+        Contenu : '<a style="text-decoration:none; color:#3b1c7a ;" href="/Billetterie">Lien vers la Billetterie</a>'
       },{
         Titre : "Tarifs",
         Contenu : "&nbsp &nbsp &nbsp &nbsp - Prévente Étudiant•e dans l’enseignement supérieur (sur présentation d'un justificatif) - 8€ <br><br>" +
@@ -63,7 +63,7 @@ export default {
       },
       {
         Titre:"Atouts Normandie",
-        Contenu:'Il est possible de régler son billet avec Atouts Normandie au guichet du Cargö. Pour plus d’informations rendez-vous sur <a style="text-decoration:none; color:#284e99;" href="https://atouts.normandie.fr/"> https://atouts.normandie.fr/ </a>.'
+        Contenu:'Il est possible de régler son billet avec Atouts Normandie au guichet du Cargö. Pour plus d’informations rendez-vous sur <a style="text-decoration:none; color:#3b1c7a ;" href="https://atouts.normandie.fr/"> https://atouts.normandie.fr/ </a>.'
       },
       {
         Titre: "Pass culture",

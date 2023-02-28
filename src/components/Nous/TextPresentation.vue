@@ -22,8 +22,8 @@ export default {
 <style scoped>
 .Text{
     height: auto;
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: bold;
+    font-family: 'SharpGrotesk-Bold20';
+
     font-size: 2vh;
     text-align: justify;
 }

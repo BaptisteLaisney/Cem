@@ -89,9 +89,9 @@ export default {
   margin:auto;
   text-align: justify;
   margin-top:60px;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: 'SharpGrotesk-Bold20', sans-serif;
   color:black;
-  font-weight: bold;
+
   font-size: 20px;
 }
 

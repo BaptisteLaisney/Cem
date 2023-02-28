@@ -67,8 +67,8 @@ export default {
 
 a,.item-menu{
     text-decoration: none;
-    color: #f1692c;
-    font-family: 'Space Grotesk', sans-serif;
+    color: #e65f20;
+    font-family: 'SharpGrotesk-Bold20';
     font-size: 30px;
 }
 .menu{
@@ -105,7 +105,7 @@ a,.item-menu{
     bottom:0px;
 }
 .button-nav:hover + .barre{
-    background-color: #f1692c ;
+    background-color: #e65f20 ;
 }
 #dropdown-content{
     display: flex;
@@ -143,15 +143,15 @@ a,.item-menu{
     margin-bottom: 0px;
 }
 #nav-billetterie{
-    background-color: #f1692c ;
+    background-color: #e65f20 ;
     color:white;
     margin:10px;
     padding:20px;
     border-radius: 10px;
-    border:#f1692c solid;
+    border:#e65f20 solid;
 }
 #nav-billetterie:hover{
-    color: #f1692c;
+    color: #e65f20;
     background: white;
 
 }

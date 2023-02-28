@@ -118,8 +118,8 @@ export default {
 }
 .nom-artiste{
     font-size: 60px;
-    font-family: 'Space Grotesk', sans-serif;
-    color:#284e99;
+ 
+    color:#3b1c7a ;
 }
 .text-presentation{
     margin:30px;
@@ -132,8 +132,8 @@ export default {
     background-color: white;
     border-radius: 5px;
     color:black;
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: bold;
+    font-family: 'SharpGrotesk-Bold20';
+
 }
 .text-presentation >>> mark, mark{
     background-color:#FF7F50;
