@@ -17,9 +17,7 @@ Blind-test, karaoké, atelier sérigraphie de tote-bag, écriture rap et plein d
 Les Ondées se prolongent en soirée avec des concerts qui s’annoncent déjà mémorables dans la grande salle du Cargö ! 
 
     </div>
-    <h1><br>Le Cargö </h1>
-   <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d627.3874045247231!2d-0.3473604160313096!3d49.18101896355624!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sfr!2sfr!4v1648044103471!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    <h1><br><br>Une Programmation Musicale</h1>
+     <h1><br><br>Une Programmation Musicale</h1>
     <div class="textPresentation">
       Nouvelle édition, nouvelle programmation ! <br>
 Assurément actuelle et défricheuse, la programmation des Ondées saura plaire aux amateur‧rices de rap comme aux curieux‧ses, découvrez-la en détail : <br><br>
@@ -40,6 +38,9 @@ Alors, rendez-vous le 20 mai 2023, sur l’esplanade du Cargö, dès 14h ! <br><
 
 découvrez-la en détail dans l’onglet VILLAGE CULTUREL.
  </div>
+ <h1><br>Le Cargö </h1>
+   <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d627.3874045247231!2d-0.3473604160313096!3d49.18101896355624!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sfr!2sfr!4v1648044103471!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+   
   </div>
 </template>
 <script>

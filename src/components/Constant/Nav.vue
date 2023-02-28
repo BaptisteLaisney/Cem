@@ -69,7 +69,7 @@ a,.item-menu{
     text-decoration: none;
     color: #e65f20;
     font-family: 'SharpGrotesk-Bold20';
-    font-size: 30px;
+    font-size: 25px;
 }
 .menu{
     margin:solid black;
