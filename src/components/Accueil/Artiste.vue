@@ -28,6 +28,8 @@
 .artiste-nom{
     top:10vh;
     font-size: 30px;
+    text-shadow: 0 0 1px rgb(0, 0, 0);
+    
     opacity: .99;
     color: white;
     visibility: hidden;

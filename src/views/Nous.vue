@@ -1,13 +1,37 @@
 <template>
     <div class="Nous">
         <h1>Qui sommes nous ?</h1>
-        <PresentationGauche image="Actif.png" titre="Association ACT'Ifs" :contenu="getContenuActifs()"/>
+
+        <div class="presentation">
+          Après deux ans de crise sanitaire, l’association ACT’Ifs Campus 3 s’associe à la salle de concerts caennaise Le Cargö pour proposer un nouveau rendez-vous culturel et musical : 
+Les Ondées. <br><br>
+
+Après le succès de la première édition, 3 membres fondateur•ices des Ondées initient la création d’une nouvelle association étudiante ayant pour seul objet l’organisation de l’événement. 
+
+        </div>
+        <PresentationGauche image="logo.png" titre="Association Les Ondées" :contenu="getContenueOndees()"/>
         <div class="espace"></div>
         <PresentationDroite image="Cargo.jpg" titre="Le Cargö" :contenu="getContenuCargo()"/>
+        
+        <div class="presentation">
+        <h2>Un projet inter-associatif</h2>
+          Car  Les Ondées participent aussi à rapprocher les associations étudiantes, trois associations co-portent le projet à nos côtés : <br>
+
+ <ul>
+  <li>ACT'Ifs Campus 3</li>
+ <li>Asso des étudiant.es de l'ésam</li>
+ <li>Fédération Campus Basse-Normandie</li>
+ </ul>
+Programmation musicale, stratégie financière, stratégie de communication, conventions… toutes les grandes décisions concernant l'événement sont étudiées avec ces associations étudiantes en comité de pilotage. <br>
+Ces trois associations sont des partenaires privilégiés dans l’élaboration de notre projet et nous sommes reconnaissant•es de la confiance qu’elles portent en notre projet.
         <div class="espace"></div>
-        <PresentationGauche image="ESAM.png" titre="L'asso étudiante de l'ESAM" :contenu="getContenuEsam()"/>
+        <PresentationGauche image="Actif.png" titre="Act’ifs Campus 3 :" :contenu="getContenuActifs()"/>
+        </div>
         <div class="espace"></div>
-        <PresentationDroite image="TheMuses.png" titre="The Muses TC" :contenu="getContenuMuses()"/>
+        <PresentationDroite image="ESAM.png" titre="L'asso étudiante de l'ESAM" :contenu="getContenuEsam()"/>
+        <div class="espace"></div>
+        <PresentationGauche image="FCBN.png" titre="FCBN" :contenu="getContenuFcbn()"/>
+
     </div>
 
 </template>
@@ -22,8 +46,15 @@ export default {
     PresentationDroite
   },
   methods:{
+
+    getContenueOndees(){
+      return "Fondée en 2022, l’association Les Ondées est créée pour faciliter l’organisation de l’événement Les Ondées. " +
+
+"Association étudiante, 28 personnes y sont membres, tous•tes étant étudiant•e normand ou l’ayant été dans les trois dernières années. " +
+
+"Des profils d’horizons très divers composent notre association : étudiant•es en Information-Communication, en Management des entreprises,  en licences Arts du spectacle, en design graphique, en informatique… Mais aussi des étudiant•es en études à l’étranger ou des jeunes en service civique ! "},
     getContenuActifs(){
-      return "Composée de 16 étudiants issus de 2ème année de DUT, l’association étudiante ACT’Ifs anime la vie culturelle et sociale du campus 3 de l’Université de Caen Normandie. Une équipe motivée, dynamique, ambitieuse : voilà notre force de proposition ! Nos objectifs sont de nous assurer de l’inclusion de tous les élèves du campus 3, mais aussi de créer une offre d’animations culturelles et festives pour les étudiants de l’IUT de Caen. Située à Ifs, l’association s'efforce également de se rapprocher des formations universitaires des autres campus et de valoriser la formation proposée par l’IUT"
+      return "Né au sein d’ACT’Ifs Campus 3, le projet Les Ondées est de nouveau soutenu par l’association. La majorité des membres de la nouvelle association sont issus de l’IUT du Campus 3 et le projet y reste identitairement très attaché. C’est pourquoi cette collaboration paraît évidente afin de faire vivre une nouvelle fois le projet."
     },
     getContenuCargo(){
       return "Le Cargö, la scène de musiques actuelles de Caen, d’une capa­ci­té de 1300 places, offre sa scène depuis 2007 à des artistes en deve­nir, indé­pen­dants et nova­teurs qu’ils soient locaux ou inter­na­tio­naux ain­si qu’à des artistes recon­nus du grand public.<br><br>" +
@@ -35,10 +66,10 @@ export default {
 
     },
     getContenuEsam(){
-      return "L’asso de l’ésam est une association d’étudiants comprenant une centaine d’adhérents. L’asso est présente afin de proposer des papiers de qualité à prix coutant aux élèves ainsi que des fournitures d’art. De plus, elle met en place une multitude de petits événements et d’activités comme des vide-greniers, la mise en avant des travaux des étudiants (avec Impressions Multiples par exemple) ou encore la distribution de sacs solidaires afin de rendre la scolarité des étudiants plus agréable."
+      return "L’association étudiante de l’ésam est l’association co-porteuse historique du projet. À l’origine notamment de l’identité graphique de l’événement, c'est grâce à elle que le projet a laissé en mémoire des souvenirs et a permis une communication très remarquée, elle a grandement aidé à la réussite de la première édition. Collaborer avec des étudiants en art est une vraie richesse pour Les Ondées : nous les remercions pour leur soutien."
     },
-    getContenuMuses(){
-      return "L'association The Muses est une association culturelle pour les étudiants en DUT et BUT Techniques de Commercialisation à l'IUT Grand Ouest Normandie. Elle est composée de 4 étudiantes Lou-Ann, Aziliz, Enola et Esther ayant pour rôle de proposer des activités telles que du théâtre, du cinéma, des visites de musées... à un prix accessible à tous. La volonté de The Muses est de faire découvrir un maximum d'activités culturelles présentes au sein de la ville de Caen aux étudiants."
+    getContenuFcbn(){
+      return "La Fédération Campus Basse-Normandie (FCBN) est une fédération étudiante représentant une quinzaine d’associations étudiantes bas-normandes. Représentante de l’engagement étudiant sur le territoire, nous espérons que le réseau de la FCBN saura se mobiliser pour cet événement. De plus, les formations de la FAGE (Fédération des Associations Générales Étudiantes) dispensées par la FCBN seront un atout non négligeable."
     }
 
   }
@@ -53,6 +84,17 @@ export default {
     height:100px;
     width: 100%;
 }
+.presentation{
+  width:90%;
+  margin:auto;
+  text-align: justify;
+  margin-top:60px;
+  font-family: 'Space Grotesk', sans-serif;
+  color:black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 @media screen and (max-width:1000px){
   .Nous{
     

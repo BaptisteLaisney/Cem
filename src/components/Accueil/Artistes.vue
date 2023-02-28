@@ -1,9 +1,9 @@
 <template>
     <div class="Artistes">
-        <Artiste id="BBJacques" artiste="B.B. Jacques" image="BBJacques.png" v-on:click="gotoBB" horaires="22h30 – 23h30"/>
-        <Artiste id="BRO" artiste="BRÖ" image="Bro.jpg" v-on:click="gotoBRO" horaires="20h55 – 22h10"/>
-        <Artiste id="nelick" artiste="nelick" image="nelick.jpg" v-on:click="gotonelick" horaires="19h00 – 19h30"/>
-        <Artiste id="Maddy" artiste="MADDYT STREET" image="maddy.jpg" v-on:click="gotoMADDY" horaires="19h50 – 20h35"/>
+        <Artiste id="BBJacques" artiste="B.B. Jacques" image="BBJacques.png" v-on:click="gotoBB" horaires=""/>
+        <Artiste id="BRO" artiste="BRÖ" image="Bro.jpg" v-on:click="gotoBRO" horaires=""/>
+        <Artiste id="nelick" artiste="nelick" image="nelick.jpg" v-on:click="gotonelick" horaires=""/>
+        <Artiste id="Maddy" artiste="Maddy Street" image="maddy.jpg" v-on:click="gotoMADDY" horaires=""/>
    
 
     </div>

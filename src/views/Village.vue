@@ -1,11 +1,13 @@
 <template>
   <div class="Village">
     <h1>Village Culturel</h1>
-    <div class="presentation">Dans une ambiance conviviale, accueillante et joyeuse, l’esplanade du Cargö s’animera samedi 4 juin dès 14h autour de stands divers - majoritairement tenus par des associations étudiantes. Ces animations seront complétées par des foodtrucks et un espace détente, où les curieux pourront venir boire un verre, lire ou se joindre aux différents ateliers proposés.</div>
-    <br><br><br>
-    <h1>Animations</h1>
+    <!-- <div class="presentation">Dans une ambiance conviviale, accueillante et joyeuse, l’esplanade du Cargö s’animera samedi 4 juin dès 14h autour de stands divers - majoritairement tenus par des associations étudiantes. Ces animations seront complétées par des foodtrucks et un espace détente, où les curieux pourront venir boire un verre, lire ou se joindre aux différents ateliers proposés.</div> -->
+    <!-- <br><br><br> -->
+    <!-- <h1>Animations</h1> -->
+    <div class="presentation"> Les animations seront dévoilées prochainement, elles seront sur l'esplanade du Cargö !</div>
+
     <div class="Animations">
-      <Animation class="Animation" v-for="animation in getAnimations()" :key="animation" :nom ="animation.nom" :presentation="animation.presentation" :image="animation.image"/>
+      <!-- <Animation class="Animation" v-for="animation in getAnimations()" :key="animation" :nom ="animation.nom" :presentation="animation.presentation" :image="animation.image"/> -->
     </div>
     <h1>L'esplanade du cargö</h1>
     <iframe class="map" src="https://www.google.com/maps/embed?pb=!4v1648124541774!6m8!1m7!1sBLUt-zWDpTqHmnS73n8CtA!2m2!1d49.18054732813361!2d-0.3478539424900502!3f46.203974017838185!4f-0.3453812541706611!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

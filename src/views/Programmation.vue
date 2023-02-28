@@ -3,10 +3,10 @@
         <h1>Programmation</h1>
         <Artistes/>
         <br><br>
-        <Presentationd id="BBJacques_pres" color = "rgb(162,163,185)" link_yt ="https://www.youtube.com/embed/iIHdTMHWAic" artiste="B.B. Jacques" image="BBJacques.png" :presentation_text="getTextBBJ()" insta="https://www.instagram.com/spiderzed/" face="https://www.facebook.com/SpiderZED" />
-        <Presentationg id="BRO_pres" color = "rgb(207,54,48)" link_yt ="https://www.youtube.com/embed/VV9qyx_v9kc" artiste="BRÖ" image="Bro.jpg" :presentation_text="getTextBro()" insta="https://www.instagram.com/a2hpalace/" face="https://www.facebook.com/profile.php?id=100050381984536" />
-        <Presentationd id="Nelick_pres" color = "rgb(207,54,48)" link_yt ="https://www.youtube.com/embed/Bb_L1TbRRp4" artiste="nelick" image="nelick.jpg" :presentation_text="getTextNelick()" insta="https://www.instagram.com/lesonvert_/" face="https://www.facebook.com/lesonvert" />
-        <Presentationg id="MADDY_pres" color = "rgb(219,204,181)" link_yt ="https://www.youtube.com/embed/8piuG5024Vg" artiste="MADDY STREET" image="maddy.jpg" :presentation_text="getTextMaddy()" insta="https://www.instagram.com/jyeuhair/" face="https://www.facebook.com/jyeuhairjyeuhair/" />
+        <Presentationd id="BBJacques_pres" color = "rgb(162,163,185)" link_yt ="https://www.youtube.com/embed/iIHdTMHWAic" artiste="B.B. Jacques" image="BBJacques.png" :presentation_text="getTextBBJ()" insta="https://www.instagram.com/blackbirdjacques/" face="https://www.facebook.com/blackbirdjacques/" />
+        <Presentationg id="BRO_pres" color = "rgb(207,54,48)" link_yt ="https://www.youtube.com/embed/VV9qyx_v9kc" artiste="BRÖ" image="Bro.jpg" :presentation_text="getTextBro()" insta="https://www.instagram.com/bro_brolli/" face="https://www.facebook.com/broducroissant/" />
+        <Presentationd id="Nelick_pres" color = "rgb(207,54,48)" link_yt ="https://www.youtube.com/embed/Bb_L1TbRRp4" artiste="nelick" image="nelick.jpg" :presentation_text="getTextNelick()" insta="https://www.instagram.com/kiwibunnylove2022/" face="https://www.facebook.com/nelick2022" />
+        <Presentationg id="MADDY_pres" color = "rgb(219,204,181)" link_yt ="https://www.youtube.com/embed/8piuG5024Vg" artiste="Maddy Street" image="maddy.jpg" :presentation_text="getTextMaddy()" insta="https://www.instagram.com/maddyftchords/"  />
         
        
     </div>

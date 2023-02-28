@@ -75,7 +75,7 @@ export default {
       return [
         {
           Titre:"Rappel horaires et date",
-          Contenu: "Samedi 4 juin 2022 <br><br> 14h00 : Ouverture du village <br><br> 18h30 : Ouverture des portes <br><br>19h00 : Début des concerts"
+          Contenu: "Samedi 20 Mai 2023 <br><br> 14h00 : Ouverture du village <br><br> 18h30 : Ouverture des portes <br><br>19h00 : Début des concerts"
         },
         {
           Titre:"BÉNÉVOLAT",

@@ -3,13 +3,13 @@
         <h1>Espace Presse</h1>
         
             
-        <a class="button" href="/presse/DP.pdf">Dossier presse</a>
+        <!-- <a class="button" href="/presse/DP.pdf">Dossier presse</a>
                 <p>Pour obtenir vos acréditations veuillez contacter Marie Mahe (Chargée de relations presses) <br>
             07 82 20 91 06 <br>
             marie.mahe02@gmail.com
-        </p>
+        </p> -->
         <br>
-        <h1>Visuels de l'evenement</h1>
+        <h1>Visuels de l'évènement</h1>
 
         <a href="/presse/Affiche.pdf" class="button" >Affiche</a>
         <div class="Visuels">
