@@ -3,8 +3,9 @@
         <img class ="logoOndees" src="@/assets/images/charte-graphique/logo_blanc.png" alt="Logo Ondées">
         <div class="text">Suivez-nous !</div>
         <div class="Conteneur-Reseaux">
-            <a href="https://www.facebook.com/lesondees"><img src="@/assets/images/logos/facebook.png" alt="Logo Facebook" class="item-sociaux" ></a>
             <a href="https://www.instagram.com/lesondees"><img src="@/assets/images/logos/instagram.png" alt="Logo Instagram" class="item-sociaux"></a>
+            <a href="https://www.facebook.com/lesondees"><img src="@/assets/images/logos/facebook.png" alt="Logo Facebook" class="item-sociaux" ></a>
+      
             <a href="https://www.linkedin.com/company/les-ond%C3%A9es/"><img src="@/assets/images/logos/linkedin.jpg" alt="Logo Instagram" class="item-sociaux"></a>
         </div>
         <br><br>

@@ -1,6 +1,6 @@
 <template>
     <div class="banniere">
-        <div class = "slide"><img class="image" src="../../assets/images/charte-graphique/Banniere.png" alt=""></div>
+        <div class = "slide"><img class="image" src="../../assets/images/charte-graphique/Banniere2023.png" alt=""></div>
     </div>
 </template>
 

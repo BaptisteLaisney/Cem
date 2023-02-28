@@ -4,7 +4,10 @@
     <!-- <div class="presentation">Dans une ambiance conviviale, accueillante et joyeuse, l’esplanade du Cargö s’animera samedi 4 juin dès 14h autour de stands divers - majoritairement tenus par des associations étudiantes. Ces animations seront complétées par des foodtrucks et un espace détente, où les curieux pourront venir boire un verre, lire ou se joindre aux différents ateliers proposés.</div> -->
     <!-- <br><br><br> -->
     <!-- <h1>Animations</h1> -->
-    <div class="presentation"> Les animations seront dévoilées prochainement, elles seront sur l'esplanade du Cargö !</div>
+    <div class="presentation">Dès 14 heures, l’esplanade et le club du Cargö accueilleront le village culturel à entrée libre. Initiation rap, blind-test, karaoké, atelier sérigraphie de tote-bag, et pleins d’autres animations seront à découvrir en famille ou entre amis. Animé par des associations étudiantes, le village culturel vous offre un nouveau regard sur le monde universitaire.
+<br><br>
+Le programme détaillé des animations sera dévoilé prochainement.
+</div>
 
     <div class="Animations">
       <!-- <Animation class="Animation" v-for="animation in getAnimations()" :key="animation" :nom ="animation.nom" :presentation="animation.presentation" :image="animation.image"/> -->

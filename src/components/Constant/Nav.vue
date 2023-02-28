@@ -11,7 +11,7 @@
             </div>
         </div>
 
-        <router-link to="/"><img class="logo-ondee" src="@/assets/images/charte-graphique/logo.png" alt=""></router-link>
+        <router-link to="/"><img class="logo-ondee" src="@/assets/images/charte-graphique/logo2023.png" alt=""></router-link>
         <div class="item-contain">
             <div>
                 <div id="dp">

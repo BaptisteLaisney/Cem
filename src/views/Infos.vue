@@ -41,7 +41,7 @@ export default {
       },
       {
         Titre: "Covoiturage",
-        Contenu: "Pensez à réduire vos émissions de CO2 en favorisant le covoiturage. Conducteur ou passager, n’hésitez pas à proposer des trajets communs pour vous rendre sur le site !"
+        Contenu: "Pensez à réduire vos émissions de CO2 en favorisant le covoiturage. Conducteur‧rice ou passager‧ère, n’hésitez pas à proposer des trajets communs pour vous rendre sur le site !"
       }
 
       ]
@@ -67,7 +67,7 @@ export default {
       },
       {
         Titre: "Pass culture",
-        Contenu: "Reservations disponible sur l'application Pass Culture"
+        Contenu: "Réservations disponible sur l'application Pass Culture"
       }
       ]
     },
@@ -79,7 +79,7 @@ export default {
         },
         {
           Titre:"BÉNÉVOLAT",
-          Contenu: "L'appel à bénévoles est terminé. Merci à tous ceux qui se sont mobilisés"
+          Contenu: "Un appel à bénévoles sera effectué dans les prochaines semaines. Restez informé·e sur Instagram (@lesondees)"
         },
         {
           Titre: "ACCUEIL DES PERSONNES À MOBILITÉ RÉDUITES",

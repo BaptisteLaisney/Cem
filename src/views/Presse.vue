@@ -1,6 +1,14 @@
 <template>
     <div class="Presse">
         <h1>Espace Presse</h1>
+        <tr>
+            <td>Les Ondées Secrétariat contact.lesondees@gmail.com</td>
+            <td>Matthias Fichet Responsable de projet matthias.fichet@icloud.com</td>
+            <td>Léna Goguillon Chargée des relations presse lenagog@icloud.com
+</td>
+
+        </tr>
+
         
             
         <!-- <a class="button" href="/presse/DP.pdf">Dossier presse</a>
@@ -8,10 +16,10 @@
             07 82 20 91 06 <br>
             marie.mahe02@gmail.com
         </p> -->
-        <br>
-        <h1>Visuels de l'évènement</h1>
+        <!-- <br>
+        <h1>Visuels de l'évènement</h1> -->
 
-        <a href="/presse/Affiche.pdf" class="button" >Affiche</a>
+        <!-- <a href="/presse/Affiche.pdf" class="button" >Affiche</a>
         <div class="Visuels">
             <a href="/presse/a2h.png"><img src="/presse/a2h.png" alt=""></a>
             <a href="/presse/jyeuhair.png"><img src="/presse/jyeuhair.png" alt=""></a>
@@ -24,7 +32,7 @@
             
 
 
-        </div>
+        </div> -->
     </div>
 </template>
 <script>
@@ -49,6 +57,14 @@
 img{
     width: 100%;
 }
+td{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+   
+}
+
 .Visuels{
     width: 100%;
     display: flex;

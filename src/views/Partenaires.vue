@@ -17,7 +17,9 @@ export default {
   methods: {
     getMedias : function(){
       return [
+        { message: 'Medias/HelloCaen.png',  link: 'https://www.instagram.com/hello_caen/' },
         { message: 'Medias/Bakuss.png',  link: 'https://www.bakuss.fr' },
+
         
       ]
     },

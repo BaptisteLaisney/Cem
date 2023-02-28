@@ -80,7 +80,7 @@ export default {
 @font-face {
     font-family: "SharpGrotesk-Bold20";
 
-    src: url("/fonts/SharpGrotesk-Bold20.otf") format("opentype");
+    src: url("/fonts/SharpGrotesk-SemiBold20.otf") format("opentype");
 }
 
 #app {

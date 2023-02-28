@@ -1,10 +1,10 @@
 <template>
   <div class="Accueil">
-    <!-- <Banniere class="banniere"/> -->
+    <Banniere class="banniere"/>
     <br>
     <!-- <iframe class="video" src="https://www.youtube.com/embed/DQuxEAgcC_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
     <br>
-    <h1><br>Qu'est-ce que les Ondées ?</h1>
+    <h1><br>Qu'est-ce que Les Ondées ?</h1>
     <div class="textPresentation">
       Porté par l’association étudiante Les Ondées et coproduit par l’association Arts Attack, “Les Ondées” est le nouveau rendez-vous culturel et musical caennais ! <br><br>
 
@@ -12,7 +12,7 @@ Après une première édition qui a vu le jour en juin 2022, Les Ondées seront 
 
 Pour cette deuxième édition, le public est convié sur l’esplanade du Cargö lors d’une journée mêlant joie et convivialité au sein d’un village culturel qui accueillera encore plus d’animations tout public et ateliers artistiques, proposés par des assos étudiantes. <br><br>
 
-Blind-test, karaoké, atelier sérigraphie de tote-bag, écriture rap et pleins d’autres animations sont à découvrir ! Le programme complet bientôt dévoilé.<br><br>
+Blind-test, karaoké, atelier sérigraphie de tote-bag, écriture rap et plein d’autres animations sont à découvrir ! Le programme sera complet bientôt dévoilé.<br><br>
  
 Les Ondées se prolongent en soirée avec des concerts qui s’annoncent déjà mémorables dans la grande salle du Cargö ! 
 
@@ -22,22 +22,23 @@ Les Ondées se prolongent en soirée avec des concerts qui s’annoncent déjà 
     <h1><br><br>Une Programmation Musicale</h1>
     <div class="textPresentation">
       Nouvelle édition, nouvelle programmation ! <br>
-Assurément actuelle et défricheuse, la programmation des Ondées saura plaire aux amateur•ices de rap comme aux curieux•ses, découvrez là en détails :
+Assurément actuelle et défricheuse, la programmation des Ondées saura plaire aux amateur‧rices de rap comme aux curieux‧ses, découvrez-la en détail : <br><br>
 
       
     </div>
+
     <Artistes class="Artistes" />
 
 
     <h1>Un Village culturel</h1>
     <div class="textPresentation">Découvrez l’un des temps forts de l’événement : le village culturel. <br>
-À entrée libre, le village culturel des Ondées est l’endroit parfait pour les âmes créatives.. <br>
-En famille ou entre amis, les associations étudiantes se mobilisent pour proposer des animations tout public, des expositions artistiques, un espace détente et bien plus encore. Ambiance conviviale et festive garantie ! <br><br>
+À entrée libre, le village culturel des Ondées est l’endroit parfait pour les âmes créatives. <br>
+En famille ou entre ami‧es, les associations étudiantes se mobilisent pour proposer des animations tout public, des expositions artistiques, un espace détente et bien plus encore. Ambiance conviviale et festive garantie ! <br><br>
 
 Alors, rendez-vous le 20 mai 2023, sur l’esplanade du Cargö, dès 14h ! <br><br>
 
 
-Retrouvez plus de détails dans l’onglet VILLAGE CULTUREL.
+découvrez-la en détail dans l’onglet VILLAGE CULTUREL.
  </div>
   </div>
 </template>
@@ -62,6 +63,7 @@ export default {
 
 .banniere{
   border-top: 0.5vh solid #e65f20;
+  
 
 }
 .textPresentation{
