@@ -12,7 +12,7 @@ Après une première édition qui a vu le jour en juin 2022, Les Ondées seront 
 
 Pour cette deuxième édition, le public est convié sur l’esplanade du Cargö lors d’une journée mêlant joie et convivialité au sein d’un village culturel qui accueillera encore plus d’animations tout public et ateliers artistiques, proposés par des assos étudiantes. <br><br>
 
-Blind-test, karaoké, atelier sérigraphie de tote-bag, écriture rap et plein d’autres animations sont à découvrir ! Le programme sera complet bientôt dévoilé.<br><br>
+Blind-test, karaoké, atelier sérigraphie de tote-bag, écriture rap et plein d’autres animations sont à découvrir !<br><br>
  
 Les Ondées se prolongent en soirée avec des concerts qui s’annoncent déjà mémorables dans la grande salle du Cargö ! 
 
