@@ -2,7 +2,7 @@
   <div class="Partenaires">
     <h1>Nos partenaires</h1>
     <Partenaire class="Partenaire" nom="INSTITUTIONNELS" :listepartenaires="getPublic()"/>
-    <!-- <Partenaire class="Partenaire" nom="SPONSORS" :listepartenaires="getPrives()"/> -->
+    <Partenaire class="Partenaire" nom="PRIVÉS" :listepartenaires="getPrives()"/>
     <Partenaire class="Partenaire" nom="PARTENAIRES MEDIAS" :listepartenaires="getMedias()" />
     <Partenaire class="Partenaire" nom="FRIENDS" :listepartenaires="getFriends()" />
   </div>
@@ -39,8 +39,11 @@ export default {
     },
     getPrives: function () {
       return [
-        { message: 'Prives/Caisse.png' },
-        { message: 'Friends/Auda.png' }
+      { message: 'Prives/E2SE.png' },
+      { message: 'Prives/Thelem.png' },
+        { message: 'Prives/Delirium.png' }
+
+
       ]
     },
     getFriends: function () {
@@ -49,6 +52,7 @@ export default {
         { message: 'Friends/Actif.png' ,link: 'https://www.instagram.com/bde_campus3/'},
         { message: 'Friends/ESAM.png',link: 'https://www.instagram.com/esamasso/' },
         { message: 'Friends/FCBN.png',link: 'https://www.instagram.com/la_fcbn/' },
+        { message: 'Friends/Cabourg.png'},
         
       ]
     }
