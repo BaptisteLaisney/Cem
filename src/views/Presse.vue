@@ -36,11 +36,14 @@
 
         </div> 
 
-        <h2>Doosier de presse</h2> 
+        <h2>Dossier de presse</h2> 
         <br>
 
+
+   
+        <a href="/presse/CP_Bilan_Les_Ondées_2023.pdf" class="button" >CP Bilan des Ondées 2023</a>
+        <a href="/presse/CP1.pdf" class="button" >CP Annonce des Ondées 2023</a>
         <a href="/presse/DP_Les_Ondées.pdf" class="button" >Dossier de presse</a>
-        <a href="/presse/CP1.pdf" class="button" >Communiqué de presse 1</a>
 <br><br>
 
 
@@ -57,12 +60,13 @@
 
         </div>
 
-        <h2>Photos des ondées 2022</h2> 
+        <h2>Photos des ondées 2023</h2> 
         <div class="Visuels">
-            <a href="/presse/Equipe.JPG"><img src="/presse/Equipe.JPG" alt=""></a>
-            <a href="/presse/Benevole.JPG"><img src="/presse/Benevole.JPG" alt=""></a>
-            <a href="/presse/photo-call.JPG"><img src="/presse/photo-call.JPG" alt=""></a>
-            <a href="/presse/Merch_label_seven.jpeg"><img src="/presse/Merch_label_seven.jpeg" alt=""></a>
+            <a href="/presse/tufting-Léna Goguillon.JPG"><img src="/presse/tufting-Léna Goguillon.JPG" alt="tufting-Léna Goguillon"></a>
+            <a href="/presse/nelick-Léna Goguillon.JPG"><img src="/presse/nelick-Léna Goguillon.JPG" alt="nelick-Léna Goguillon"></a>
+            <a href="/presse/général 1- Théo Covo.JPG"><img src="/presse/général 1- Théo Covo.JPG" alt="général 1- Théo Covo"></a>
+            <a href="/presse/B.B.Jacques-Selena Manzoni.jpeg"><img src="/presse/B.B.Jacques-Selena Manzoni.jpeg" alt="B.B.Jacques-Selena Manzoni"></a>
+
 
         </div>
     </div>
